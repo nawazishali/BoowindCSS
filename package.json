@@ -1,0 +1,24 @@
+{
+  "name": "tw-bootstrap",
+  "version": "0.0.1",
+  "description": "A set of Bootstrap Components built with TailwindCSS to kickstart your next Tailwind Project",
+  "main": "index.js",
+  "authors": {
+    "name": "Nawazish Ali",
+    "email": "nawazishaliejaz@gmail.com"
+  },
+  "repository": "https://github.com/nawazishali/tw-bootstrap.git/tw-bootstrap",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "tailwindcss": "^1.8.10",
+    "vuepress-plugin-code-copy": "^1.0.6"
+  }
+}
