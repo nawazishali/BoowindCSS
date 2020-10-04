@@ -18,7 +18,7 @@
   <div class="px-5 py-3 mt-4 text-base text-yellow-800 bg-yellow-200 border border-yellow-300 border-solid rounded" role="alert">
     A simple warning alert—check it out!
   </div>
-  <div class="px-5 py-3 mt-4 text-base text-teal-800 bg-blue-200 border border-blue-300 border-solid rounded" role="alert">
+  <div class="px-5 py-3 mt-4 text-base text-teal-800 bg-teal-200 border border-teal-300 border-solid rounded" role="alert">
     A simple info alert—check it out!
   </div>
   <div class="px-5 py-3 mt-4 text-base text-gray-600 bg-gray-100 border border-gray-200 border-solid rounded" role="alert">
@@ -45,7 +45,7 @@
   <div class="px-5 py-3 text-base text-yellow-800 bg-yellow-200 border border-yellow-300 border-solid rounded" role="alert">
     A simple warning alert—check it out!
   </div>
-  <div class="px-5 py-3 text-base text-teal-800 bg-blue-200 border border-blue-300 border-solid rounded" role="alert">
+  <div class="px-5 py-3 text-base text-teal-800 bg-teal-200 border border-teal-300 border-solid rounded" role="alert">
     A simple info alert—check it out!
   </div>
   <div class="px-5 py-3 text-base text-gray-600 bg-gray-100 border border-gray-200 border-solid rounded" role="alert">
@@ -74,7 +74,7 @@
   <div class="px-5 py-3 mt-4 text-base text-yellow-800 bg-yellow-200 border border-yellow-300 border-solid rounded" role="alert">
     A simple warning alert with <a href="#" class="font-bold text-yellow-900 hover:underline">an example link</a>. Give it a click if you like.
   </div>
-  <div class="px-5 py-3 mt-4 text-base text-teal-800 bg-blue-200 border border-blue-300 border-solid rounded" role="alert">
+  <div class="px-5 py-3 mt-4 text-base text-teal-800 bg-teal-200 border border-teal-300 border-solid rounded" role="alert">
     A simple info alert with <a href="#" class="font-bold text-teal-900 hover:underline">an example link</a>. Give it a click if you like.
   </div>
   <div class="px-5 py-3 mt-4 text-base text-gray-600 bg-gray-100 border border-gray-200 border-solid rounded" role="alert">
@@ -101,7 +101,7 @@
   <div class="px-5 py-3 text-base text-yellow-800 bg-yellow-200 border border-yellow-300 border-solid rounded" role="alert">
     A simple warning alert with <a href="#" class="font-bold text-yellow-900 hover:underline">an example link</a>. Give it a click if you like.
   </div>
-  <div class="px-5 py-3 text-base text-teal-800 bg-blue-200 border border-blue-300 border-solid rounded" role="alert">
+  <div class="px-5 py-3 text-base text-teal-800 bg-teal-200 border border-teal-300 border-solid rounded" role="alert">
     A simple info alert with <a href="#" class="font-bold text-teal-900 hover:underline">an example link</a>. Give it a click if you like.
   </div>
   <div class="px-5 py-3 text-base text-gray-600 bg-gray-100 border border-gray-200 border-solid rounded" role="alert">
