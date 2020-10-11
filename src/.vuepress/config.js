@@ -51,7 +51,8 @@ module.exports = {
             '',
             'get-started',
             'alerts',
-            'badge'
+            'badge',
+            'breadcrumb'
           ]
         }
       ],
