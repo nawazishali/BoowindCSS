@@ -18,9 +18,15 @@ module.exports = {
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['script', {src:'https://unpkg.com/prettier@2.2.1/standalone.js'}],
+    ['script', {src:'https://unpkg.com/prettier@2.2.1/parser-babel.js'}],
+    ['script', {src:'https://unpkg.com/prettier@2.2.1/parser-html.js'}],
+    ['script', {src: 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js'}],
+    ['link', {rel:'stylesheet', href:'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/atom-one-dark.min.css'}],
+    ['script', {src: 'https://unpkg.com/highlightjs-badge/highlightjs-badge.min.js'}],
+    ['link', {rel:'stylesheet', href:'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css'}],
   ],
-
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
    *
@@ -52,7 +58,8 @@ module.exports = {
             'get-started',
             'alerts',
             'badge',
-            'breadcrumb'
+            'breadcrumb',
+            'buttons'
           ]
         }
       ],
