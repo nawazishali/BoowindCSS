@@ -16,9 +16,8 @@ body {
   background-color: #fff;
 }
 
-.theme-default-content:not(.custom) a:hover {
-  text-decoration: initial;
-}
+.theme-default-content:not(.custom)
+  max-width: 900px
 
 
 @tailwind components;
@@ -28,3 +27,16 @@ body {
 
 .home .hero img
   max-width 450px!important
+
+h1
+  @apply text-4xl font-medium
+h2
+  @apply text-3xl font-medium
+h3
+  @apply text-2xl font-medium
+h4
+  @apply text-xl font-medium
+h5
+  @apply text-lg font-medium
+h6
+  @apply text-base font-medium
