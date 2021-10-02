@@ -6,7 +6,7 @@
 
 //  import hljs from 'highlight.js/lib/common';
 //  import hljsVuePlugin from "@highlightjs/vue-plugin";
-import CodeEditor from 'simple-code-editor';
+// import CodeEditor from 'simple-code-editor';
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app
@@ -15,5 +15,5 @@ export default ({
   siteData // site metadata
 }) => {
   // ...apply enhancements for the site.
-  Vue.component('code-editor', CodeEditor)
+  // Vue.component('code-editor', CodeEditor)
 }
