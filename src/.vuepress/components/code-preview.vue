@@ -1,14 +1,18 @@
 <template>
-  <div>
-    <div
-      class="p-4 my-2 bg-white border border-gray-300 border-solid rounded-md"
-      ref="slot"
-    >
+  <div class="mt-2 border border-gray-300 border-solid rounded-md shadow-md">
+    <div class="p-4" ref="slot">
       <slot></slot>
     </div>
-    <pre>
-		<code class="language-html" v-text="templateText"></code>
-	</pre>
+    <pre v-if="showCode">
+		  <code class="language-html" v-text="templateText"></code>
+	  </pre>
+    <button
+      type="button"
+      @click="() => (this.showCode = !this.showCode)"
+      class="block w-full py-2 text-lg font-normal leading-5 text-center text-blue-700 align-middle border-t cursor-pointer hover:text-blue-700 active:text-blue-700 focus:outline-none"
+    >
+      <i class="fas fa-lg fa-code"></i>
+    </button>
   </div>
 </template>
 
@@ -17,6 +21,7 @@ export default {
   data() {
     return {
       templateText: "",
+      showCode: false,
     };
   },
   mounted() {
@@ -44,6 +49,8 @@ export default {
 <style>
 pre {
   line-height: 0 !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
 }
 code {
   font-size: 15px !important;
