@@ -1,5 +1,5 @@
 {
-  "name": "tw-bootstrap",
+  "name": "boowind-css",
   "version": "0.0.1",
   "description": "A set of Bootstrap Components built with TailwindCSS to kickstart your next Tailwind Project",
   "main": "index.js",
