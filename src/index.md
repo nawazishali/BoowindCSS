@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: /BoowindCSS.svg
 tagline: A set of Bootstrap Components built with TailwindCSS to kickstart your next Tailwind Project.
 actionText: Quick Start →
 actionLink: /docs/
