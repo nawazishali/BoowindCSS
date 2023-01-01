@@ -59,7 +59,8 @@ module.exports = {
             'alerts',
             'badge',
             'breadcrumb',
-            'buttons'
+            'buttons',
+            'button-group'
           ]
         }
       ],
