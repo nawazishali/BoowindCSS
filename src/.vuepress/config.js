@@ -60,7 +60,8 @@ module.exports = {
             'badge',
             'breadcrumb',
             'buttons',
-            'button-group'
+            'button-group',
+            'card'
           ]
         }
       ],
