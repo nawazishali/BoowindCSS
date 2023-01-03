@@ -45,7 +45,7 @@ module.exports = {
       },
       {
         text: 'Github',
-        link: 'https://github.com/nawazishali/tw-bootstrap'
+        link: 'https://github.com/nawazishali/BoowindCSS'
       }
     ],
     sidebar: {
