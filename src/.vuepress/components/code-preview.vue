@@ -1,6 +1,6 @@
 <template>
-  <div class="mt-2 border border-gray-300 border-solid rounded-md shadow-md">
-    <div class="p-4" ref="slot">
+  <div class="mt-2 border border-gray-300 border-solid rounded-md">
+    <div class="p-4 bg-pattern" ref="slot">
       <slot></slot>
     </div>
     <pre v-if="showCode">
@@ -78,5 +78,15 @@ code::-webkit-scrollbar-track {
 
 .code-badge-language {
   display: none;
+}
+
+.bg-pattern {
+  /* background: radial-gradient(circle, #4685e3 10%, transparent 11%); */
+  /* background-size: 1em 1em; */
+  /* background: radial-gradient(hsla(215 28% 17%/.2) .5px,hsla(0 0% 95%/1) .5px); */
+  background: radial-gradient(hsla(215 28% 17%/.2) 0.5px,hsl(0deg 0% 98%) 0.5px);
+  background-size: 5px 5px;
+  background-color: #ffffff;
+  opacity: 1;
 }
 </style>

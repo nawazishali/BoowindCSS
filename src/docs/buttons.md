@@ -77,7 +77,7 @@
 
 <code-preview>
   <template>
-    <button type="button" class="inline-block px-4 py-2 text-xl font-normal leading-8 text-center text-white align-middle bg-blue-600 border-transparent border-solid rounded-md cursor-pointer hover:bg-blue-700 active:bg-blue-700 focus:bg-blue-700 focus:outline-none disabled:opacity-75" disabled>Large button</button>
-    <button type="button" class="inline-block px-4 py-2 text-xl font-normal leading-8 text-center text-white align-middle bg-gray-600 border-transparent border-solid rounded-md cursor-pointer hover:bg-gray-700 active:bg-gray-700 focus:bg-gray-700 focus:outline-none disabled:opacity-75" disabled>Large button</button>
+    <button type="button" class="inline-block px-4 py-2 text-xl font-normal leading-8 text-center text-white align-middle bg-blue-600 border-transparent border-solid rounded-md cursor-pointer disabled:cursor-not-allowed hover:bg-blue-700 active:bg-blue-700 focus:bg-blue-700 focus:outline-none disabled:opacity-75" disabled>Large button</button>
+    <button type="button" class="inline-block px-4 py-2 text-xl font-normal leading-8 text-center text-white align-middle bg-gray-600 border-transparent border-solid rounded-md cursor-pointer disabled:cursor-not-allowed hover:bg-gray-700 active:bg-gray-700 focus:bg-gray-700 focus:outline-none disabled:opacity-75" disabled>Large button</button>
   </template>
 </code-preview>
