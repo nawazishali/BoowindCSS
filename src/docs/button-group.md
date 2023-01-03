@@ -46,6 +46,7 @@
     </div>
   </template>
 </code-preview>
+
 <code-preview>
   <template>
     <div class="inline-flex overflow-hidden text-base rounded" role="group" aria-label="Basic example">
@@ -55,6 +56,7 @@
     </div>
   </template>
 </code-preview>
+
 <code-preview>
   <template>
     <div class="inline-flex overflow-hidden text-sm rounded" role="group" aria-label="Basic example">
