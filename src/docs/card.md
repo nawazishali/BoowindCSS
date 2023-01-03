@@ -176,5 +176,100 @@
   </template>
 </code-preview>
 
+## Background and color
 
-  
+<code-preview>
+  <template>
+    <div class="w-auto m-3 overflow-auto text-white bg-blue-600 border border-blue-700 rounded">
+      <div class="p-4 bg-gray-500 bg-opacity-25 border-b border-inherit">Header</div>
+      <div class="p-4">
+        <h5 class="mb-3 text-xl font-medium">Primary Card</h5>
+        <p class="mb-4">With supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </template>
+</code-preview>
+
+<code-preview>
+  <template>
+    <div class="w-auto m-3 overflow-auto text-white bg-gray-600 border border-gray-700 rounded">
+      <div class="p-4 bg-gray-500 bg-opacity-25 border-b border-inherit">Header</div>
+      <div class="p-4">
+        <h5 class="mb-3 text-xl font-medium">Secondary Card</h5>
+        <p class="mb-4">With supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </template>
+</code-preview>
+
+<code-preview>
+  <template>
+    <div class="w-auto m-3 overflow-auto text-white bg-green-500 border border-green-600 rounded">
+      <div class="p-4 bg-gray-500 bg-opacity-25 border-b border-inherit">Header</div>
+      <div class="p-4">
+        <h5 class="mb-3 text-xl font-medium">Success Card</h5>
+        <p class="mb-4">With supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </template>
+</code-preview>
+
+<code-preview>
+  <template>
+    <div class="w-auto m-3 overflow-auto text-white bg-red-600 border border-red-700 rounded">
+      <div class="p-4 bg-gray-500 bg-opacity-25 border-b border-inherit">Header</div>
+      <div class="p-4">
+        <h5 class="mb-3 text-xl font-medium">Danger Card</h5>
+        <p class="mb-4">With supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </template>
+</code-preview>
+
+<code-preview>
+  <template>
+    <div class="w-auto m-3 overflow-auto text-white bg-yellow-500 border border-yellow-600 rounded">
+      <div class="p-4 bg-gray-300 bg-opacity-25 border-b border-inherit">Header</div>
+      <div class="p-4">
+        <h5 class="mb-3 text-xl font-medium">Warning Card</h5>
+        <p class="mb-4">With supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </template>
+</code-preview>
+
+<code-preview>
+  <template>
+    <div class="w-auto m-3 overflow-auto text-white bg-teal-500 border border-teal-600 rounded">
+      <div class="p-4 bg-gray-500 bg-opacity-25 border-b border-inherit">Header</div>
+      <div class="p-4">
+        <h5 class="mb-3 text-xl font-medium">Info Card</h5>
+        <p class="mb-4">With supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </template>
+</code-preview>
+
+<code-preview>
+  <template>
+    <div class="w-auto m-3 overflow-auto bg-gray-200 border border-gray-300 rounded text-dark">
+      <div class="p-4 bg-gray-300 bg-opacity-25 border-b border-inherit">Header</div>
+      <div class="p-4">
+        <h5 class="mb-3 text-xl font-medium">Light Card</h5>
+        <p class="mb-4">With supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </template>
+</code-preview>
+
+<code-preview>
+  <template>
+    <div class="w-auto m-3 overflow-auto text-white bg-gray-800 border border-gray-900 rounded">
+      <div class="p-4 bg-gray-700 bg-opacity-25 border-b border-inherit">Header</div>
+      <div class="p-4">
+        <h5 class="mb-3 text-xl font-medium">Dark Card</h5>
+        <p class="mb-4">With supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </template>
+</code-preview>
