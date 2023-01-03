@@ -4,80 +4,177 @@
 
 <code-preview>
   <template>
-    <div class="w-auto m-3 overflow-auto border border-gray-400 rounded">
-      <img src="https://loremflickr.com/640/360" class="w-full" alt="placeholder">
+    <div class="w-auto m-3 overflow-auto bg-white border border-gray-400 rounded">
+      <img src="https://picsum.photos/640/250" class="w-full" alt="placeholder" />
       <div class="p-4">
-        <h5 class="mb-3 text-xl font-medium">Card title</h5>
+        <h5 class="mb-3 text-xl font-medium">Card With top Image</h5>
         <p class="mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#!" role="button" class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-white align-middle bg-blue-600 border-transparent border-solid rounded cursor-pointer hover:no-underline hover:bg-blue-700 active:no-underline active:bg-blue-700 focus:outline-none">Go somewhere</a>
+        <a href="#!" role="button" class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-white align-middle bg-blue-600 border-transparent border-solid rounded cursor-pointer hover:bg-blue-700 hover:no-underline focus:outline-none active:bg-blue-700 active:no-underline">Go somewhere</a>
       </div>
     </div>
   </template>
 </code-preview>
 
-## Button toolbar
-
 <code-preview>
   <template>
-    <div role="toolbar" aria-label="Toolbar with button groups">
-      <div class="inline-flex overflow-hidden rounded" role="group" aria-label="First group">
-        <button type="button" class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-white align-middle bg-gray-600 border-transparent border-solid cursor-pointer hover:bg-gray-700 active:bg-gray-700 focus:outline-none">1</button>
-        <button type="button" class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-white align-middle bg-gray-600 border-transparent border-solid cursor-pointer hover:bg-gray-700 active:bg-gray-700 focus:outline-none">2</button>
-        <button type="button" class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-white align-middle bg-gray-600 border-transparent border-solid cursor-pointer hover:bg-gray-700 active:bg-gray-700 focus:outline-none">3</button>
-        <button type="button" class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-white align-middle bg-gray-600 border-transparent border-solid cursor-pointer hover:bg-gray-700 active:bg-gray-700 focus:outline-none">4</button>
+    <div class="w-auto m-3 overflow-auto bg-white border border-gray-400 rounded">
+      <div class="p-4">
+        <h5 class="mb-3 text-xl font-medium">Card with bottom Image</h5>
+        <p class="mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#!" role="button" class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-white align-middle bg-blue-600 border-transparent border-solid rounded cursor-pointer hover:bg-blue-700 hover:no-underline focus:outline-none active:bg-blue-700 active:no-underline">Go somewhere</a>
       </div>
-      <div class="inline-flex overflow-hidden rounded" role="group" aria-label="Second group">
-        <button type="button" class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-white align-middle bg-gray-600 border-transparent border-solid cursor-pointer hover:bg-gray-700 active:bg-gray-700 focus:outline-none">5</button>
-        <button type="button" class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-white align-middle bg-gray-600 border-transparent border-solid cursor-pointer hover:bg-gray-700 active:bg-gray-700 focus:outline-none">6</button>
-        <button type="button" class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-white align-middle bg-gray-600 border-transparent border-solid cursor-pointer hover:bg-gray-700 active:bg-gray-700 focus:outline-none">7</button>
+      <img src="https://picsum.photos/640/250" class="w-full" alt="placeholder" />
+    </div>
+  </template>
+</code-preview>
+
+<code-preview>
+  <template>
+    <div class="flex flex-row w-auto m-3 overflow-auto bg-white border border-gray-400 rounded">
+      <div class="w-1/3"><img src="https://picsum.photos/250" alt="placeholder" /></div>
+      <div class="w-2/3 p-4">
+        <h5 class="mb-3 text-xl font-medium">Card with bottom Image</h5>
+        <p class="mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#!" role="button" class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-white align-middle bg-blue-600 border-transparent border-solid rounded cursor-pointer hover:bg-blue-700 hover:no-underline focus:outline-none active:bg-blue-700 active:no-underline">Go somewhere</a>
       </div>
-      <div class="inline-flex overflow-hidden rounded" role="group" aria-label="Third group">
-        <button type="button" class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-white align-middle bg-gray-600 border-transparent border-solid cursor-pointer hover:bg-gray-700 active:bg-gray-700 focus:outline-none">8</button>
+    </div>
+  </template>
+</code-preview>
+
+<code-preview>
+  <template>
+    <div class="flex flex-row-reverse w-auto m-3 overflow-auto bg-white border border-gray-400 rounded">
+    <div class="w-1/3"><img src="https://picsum.photos/250" alt="placeholder" /></div>
+    <div class="w-2/3 p-4">
+      <h5 class="mb-3 text-xl font-medium">Card with bottom Image</h5>
+      <p class="mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#!" role="button" class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-white align-middle bg-blue-600 border-transparent border-solid rounded cursor-pointer hover:bg-blue-700 hover:no-underline focus:outline-none active:bg-blue-700 active:no-underline">Go somewhere</a>
+    </div>
+  </div>
+  </template>
+</code-preview>
+
+<code-preview>
+  <template>
+    <div class="relative w-auto m-3 overflow-auto text-white bg-white border border-gray-400 rounded">
+  <div class="absolute p-4">
+    <h5 class="mb-3 text-xl font-medium">Overlayed Card</h5>
+    <p class="mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#!" role="button" class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-white align-middle bg-blue-600 border-transparent border-solid rounded cursor-pointer hover:bg-blue-700 hover:no-underline focus:outline-none active:bg-blue-700 active:no-underline">Go somewhere</a>
+  </div>
+  <img src="https://picsum.photos/640/250" class="w-full" alt="placeholder" />
+</div>
+  </template>
+</code-preview>
+
+## Titles, text, and links
+
+<code-preview>
+  <template>
+    <div class="w-auto m-3 overflow-auto bg-white border border-gray-400 rounded">
+      <div class="p-4">
+        <h5 class="text-xl font-medium">Card title</h5>
+        <h6 class="mb-2 text-base font-medium text-gray-700">Card subtitle</h6>
+        <p class="mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#!" class="inline-block py-2 text-base font-normal leading-6 text-center text-blue-600 align-middle border-transparent border-solid rounded cursor-pointer hover:text-blue-700 active:text-blue-700 hover:underline active:underline focus:outline-none">Card Link</a>
+        <a href="#!" class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-blue-600 align-middle border-transparent border-solid rounded cursor-pointer hover:text-blue-700 active:text-blue-700 hover:underline active:underline focus:outline-none">Another Link</a>
       </div>
     </div>
   </template>
 </code-preview>
 
-## Sizing
+## Header and footer
 
 <code-preview>
   <template>
-    <div class="inline-flex overflow-hidden text-xl rounded" role="group" aria-label="Basic example">
-      <button type="button" class="inline-block px-4 py-3 font-normal leading-6 text-center text-white align-middle bg-gray-600 border-transparent border-solid cursor-pointer hover:bg-gray-700 active:bg-gray-700 focus:outline-none">Left</button>
-      <button type="button" class="inline-block px-4 py-3 font-normal leading-6 text-center text-white align-middle bg-gray-600 border-transparent border-solid cursor-pointer hover:bg-gray-700 active:bg-gray-700 focus:outline-none">Middle</button>
-      <button type="button" class="inline-block px-4 py-3 font-normal leading-6 text-center text-white align-middle bg-gray-600 border-transparent border-solid cursor-pointer hover:bg-gray-700 active:bg-gray-700 focus:outline-none">Right</button>
+    <div class="w-auto m-3 overflow-auto bg-white border border-gray-400 rounded">
+      <div class="p-4 bg-gray-300 border-b border-gray-400">Featured</div>
+      <div class="p-4">
+        <h5 class="mb-3 text-xl font-medium">Special title treatment</h5>
+        <p class="mb-4">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#!" role="button" class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-white align-middle bg-blue-600 border-transparent border-solid rounded cursor-pointer hover:bg-blue-700 hover:no-underline focus:outline-none active:bg-blue-700 active:no-underline">Go somewhere</a>
+        <a href="#!" class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-blue-600 align-middle border-transparent border-solid rounded cursor-pointer hover:text-blue-700 hover:underline focus:outline-none active:text-blue-700 active:underline">Another Link</a>
+      </div>
+      <div class="p-4 bg-gray-300 border-t border-gray-400">2 days ago</div>
     </div>
   </template>
 </code-preview>
 
 <code-preview>
   <template>
-    <div class="inline-flex overflow-hidden text-base rounded" role="group" aria-label="Basic example">
-      <button type="button" class="inline-block px-3 py-2 font-normal leading-6 text-center text-white align-middle bg-gray-600 border-transparent border-solid cursor-pointer hover:bg-gray-700 active:bg-gray-700 focus:outline-none">Left</button>
-      <button type="button" class="inline-block px-3 py-2 font-normal leading-6 text-center text-white align-middle bg-gray-600 border-transparent border-solid cursor-pointer hover:bg-gray-700 active:bg-gray-700 focus:outline-none">Middle</button>
-      <button type="button" class="inline-block px-3 py-2 font-normal leading-6 text-center text-white align-middle bg-gray-600 border-transparent border-solid cursor-pointer hover:bg-gray-700 active:bg-gray-700 focus:outline-none">Right</button>
+    <div class="w-auto m-3 overflow-auto bg-white border border-gray-400 rounded">
+      <div class="p-4 bg-gray-300 bg-opacity-25 border-b border-inherit">Featured</div>
+      <div class="p-4">
+        <h5 class="mb-3 text-xl font-medium">Special title treatment</h5>
+        <p class="mb-4">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#!" role="button" class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-white align-middle bg-blue-600 border-transparent border-solid rounded cursor-pointer hover:bg-blue-700 hover:no-underline focus:outline-none active:bg-blue-700 active:no-underline">Go somewhere</a>
+        <a href="#!" class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-blue-600 align-middle border-transparent border-solid rounded cursor-pointer hover:text-blue-700 hover:underline focus:outline-none active:text-blue-700 active:underline">Another Link</a>
+      </div>
+      <div class="p-4 bg-gray-300 bg-opacity-25 border-t border-inherit">2 days ago</div>
     </div>
   </template>
 </code-preview>
 
 <code-preview>
   <template>
-    <div class="inline-flex overflow-hidden text-sm rounded" role="group" aria-label="Basic example">
-      <button type="button" class="inline-block px-2 py-1 font-normal leading-6 text-center text-white align-middle bg-gray-600 border-transparent border-solid cursor-pointer hover:bg-gray-700 active:bg-gray-700 focus:outline-none">Left</button>
-      <button type="button" class="inline-block px-2 py-1 font-normal leading-6 text-center text-white align-middle bg-gray-600 border-transparent border-solid cursor-pointer hover:bg-gray-700 active:bg-gray-700 focus:outline-none">Middle</button>
-      <button type="button" class="inline-block px-2 py-1 font-normal leading-6 text-center text-white align-middle bg-gray-600 border-transparent border-solid cursor-pointer hover:bg-gray-700 active:bg-gray-700 focus:outline-none">Right</button>
+    <div class="w-auto m-3 overflow-auto bg-white border border-gray-400 rounded">
+      <div class="p-4 bg-gray-300 bg-opacity-25 border-b border-inherit">Featured</div>
+      <div class="p-4">
+        <blockquote>
+          <p class="mb-3 text-xl font-medium">A well-known quote, contained in a blockquote element.</p>
+          <footer class="text-base font-medium text-gray-700">- Someone famous in <cite title="Source Title" class="italic">Source Title</cite></footer>
+        </blockquote>
+      </div>
     </div>
   </template>
 </code-preview>
 
-## Vertical variation
+## Text alignment
 
 <code-preview>
   <template>
-    <div class="inline-flex flex-col overflow-hidden text-base rounded" role="group" aria-label="Basic example">
-      <button type="button" class="inline-block px-3 py-2 font-normal leading-6 text-center text-white align-middle bg-gray-600 border-transparent border-solid cursor-pointer hover:bg-gray-700 active:bg-gray-700 focus:outline-none">Button</button>
-      <button type="button" class="inline-block px-3 py-2 font-normal leading-6 text-center text-white align-middle bg-gray-600 border-transparent border-solid cursor-pointer hover:bg-gray-700 active:bg-gray-700 focus:outline-none">Button</button>
-      <button type="button" class="inline-block px-3 py-2 font-normal leading-6 text-center text-white align-middle bg-gray-600 border-transparent border-solid cursor-pointer hover:bg-gray-700 active:bg-gray-700 focus:outline-none">Button</button>
+    <div class="w-auto m-3 overflow-auto bg-white border border-gray-400 rounded">
+      <div class="p-4 bg-gray-300 bg-opacity-25 border-b border-inherit">Featured</div>
+      <div class="p-4">
+        <h5 class="mb-3 text-xl font-medium">Special title treatment</h5>
+        <p class="mb-4">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#!" role="button" class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-white align-middle bg-blue-600 border-transparent border-solid rounded cursor-pointer hover:bg-blue-700 hover:no-underline focus:outline-none active:bg-blue-700 active:no-underline">Go somewhere</a>
+        <a href="#!" class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-blue-600 align-middle border-transparent border-solid rounded cursor-pointer hover:text-blue-700 hover:underline focus:outline-none active:text-blue-700 active:underline">Another Link</a>
+      </div>
+      <div class="p-4 bg-gray-300 bg-opacity-25 border-t border-inherit">2 days ago</div>
     </div>
   </template>
 </code-preview>
+
+<code-preview>
+  <template>
+    <div class="w-auto m-3 overflow-auto text-center bg-white border border-gray-400 rounded">
+      <div class="p-4 bg-gray-300 bg-opacity-25 border-b border-inherit">Featured</div>
+      <div class="p-4">
+        <h5 class="mb-3 text-xl font-medium">Special title treatment</h5>
+        <p class="mb-4">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#!" role="button" class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-white align-middle bg-blue-600 border-transparent border-solid rounded cursor-pointer hover:bg-blue-700 hover:no-underline focus:outline-none active:bg-blue-700 active:no-underline">Go somewhere</a>
+        <a href="#!" class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-blue-600 align-middle border-transparent border-solid rounded cursor-pointer hover:text-blue-700 hover:underline focus:outline-none active:text-blue-700 active:underline">Another Link</a>
+      </div>
+      <div class="p-4 bg-gray-300 bg-opacity-25 border-t border-inherit">2 days ago</div>
+    </div>
+  </template>
+</code-preview>
+
+<code-preview>
+  <template>
+    <div class="w-auto m-3 overflow-auto text-right bg-white border border-gray-400 rounded">
+      <div class="p-4 bg-gray-300 bg-opacity-25 border-b border-inherit">Featured</div>
+      <div class="p-4">
+        <h5 class="mb-3 text-xl font-medium">Special title treatment</h5>
+        <p class="mb-4">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#!" role="button" class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-white align-middle bg-blue-600 border-transparent border-solid rounded cursor-pointer hover:bg-blue-700 hover:no-underline focus:outline-none active:bg-blue-700 active:no-underline">Go somewhere</a>
+        <a href="#!" class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-blue-600 align-middle border-transparent border-solid rounded cursor-pointer hover:text-blue-700 hover:underline focus:outline-none active:text-blue-700 active:underline">Another Link</a>
+      </div>
+      <div class="p-4 bg-gray-300 bg-opacity-25 border-t border-inherit">2 days ago</div>
+    </div>
+  </template>
+</code-preview>
+
+
+  
