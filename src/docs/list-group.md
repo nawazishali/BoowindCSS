@@ -1,4 +1,4 @@
-# Button Group
+# List Group
 
 ## Basic example
 
@@ -100,6 +100,24 @@
         <li class="block px-5 py-3 m-0 bg-white border-l border-gray-300">An item</li>
         <li class="block px-5 py-3 m-0 bg-white border-l border-gray-300">A second item</li>
         <li class="block px-5 py-3 m-0 bg-white border-l border-gray-300">A third item</li>
+    </ul>
+  </template>
+</code-preview>
+
+## Colored list group 
+
+<code-preview>
+  <template>
+    <ul class="max-w-sm overflow-hidden border border-gray-300 rounded">
+      <li class="px-5 py-3 m-0 bg-white border-b border-gray-300">A simple basic item</li>
+      <li class="px-5 py-3 m-0 text-blue-800 bg-blue-200 border-b">A simple primary item</li>
+      <li class="px-5 py-3 m-0 text-gray-800 bg-gray-200 border-b">A simple secondary item</li>
+      <li class="px-5 py-3 m-0 text-green-800 bg-green-200 border-b">A simple success item</li>
+      <li class="px-5 py-3 m-0 text-red-800 bg-red-200 border-b">A simple danger item</li>
+      <li class="px-5 py-3 m-0 text-yellow-800 bg-yellow-200 border-b">A simple warning item</li>
+      <li class="px-5 py-3 m-0 text-teal-800 bg-teal-200 border-b">A simple info item</li>
+      <li class="px-5 py-3 m-0 text-gray-600 bg-gray-100 border-b">A simple light item</li>
+      <li class="px-5 py-3 m-0 text-gray-900 bg-gray-300">A simple dark item</li>
     </ul>
   </template>
 </code-preview>
