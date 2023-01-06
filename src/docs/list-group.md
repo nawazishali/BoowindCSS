@@ -68,7 +68,7 @@
   </template>
 </code-preview>
 
-## Flush 
+## Flush
 
 <code-preview>
   <template>
@@ -82,7 +82,7 @@
   </template>
 </code-preview>
 
-## Horizontal list 
+## Horizontal list
 
 <code-preview>
   <template>
@@ -104,7 +104,7 @@
   </template>
 </code-preview>
 
-## Colored list group 
+## Colored list group
 
 <code-preview>
   <template>
@@ -119,5 +119,38 @@
       <li class="px-5 py-3 m-0 text-gray-600 bg-gray-100 border-b">A simple light item</li>
       <li class="px-5 py-3 m-0 text-gray-900 bg-gray-300">A simple dark item</li>
     </ul>
+  </template>
+</code-preview>
+
+## Custom list group
+
+<code-preview>
+  <template>
+    <div class="max-w-sm overflow-hidden text-gray-700 border border-gray-300 rounded">
+      <a href="#" class="block px-5 py-3 m-0 text-white bg-blue-600 border-b border-gray-300">
+        <div class="flex flex-row justify-between d-flex w-100 justify-content-between">
+          <h5 class="mb-1 text-xl">List group item heading</h5>
+          <small>3 days ago</small>
+        </div>
+        <p class="mb-1">Some placeholder content in a paragraph.</p>
+        <small>And some small print.</small>
+      </a>
+      <a href="#" class="block px-5 py-3 m-0 bg-white border-b border-gray-300">
+        <div class="flex flex-row justify-between d-flex w-100 justify-content-between">
+          <h5 class="mb-1 text-xl">List group item heading</h5>
+          <small class="text-gray-500">3 days ago</small>
+        </div>
+        <p class="mb-1">Some placeholder content in a paragraph.</p>
+        <small class="text-gray-500">And some muted small print.</small>
+      </a>
+      <a href="#" class="block px-5 py-3 m-0 bg-white">
+        <div class="flex flex-row justify-between d-flex w-100 justify-content-between">
+          <h5 class="mb-1 text-xl">List group item heading</h5>
+          <small class="text-gray-500">3 days ago</small>
+        </div>
+        <p class="mb-1">Some placeholder content in a paragraph.</p>
+        <small class="text-gray-500">And some muted small print.</small>
+      </a>
+    </div>
   </template>
 </code-preview>
