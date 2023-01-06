@@ -62,7 +62,8 @@ module.exports = {
             'breadcrumb',
             'buttons',
             'button-group',
-            'card'
+            'card',
+            'list-group'
           ]
         }
       ],
