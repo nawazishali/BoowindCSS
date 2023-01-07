@@ -10,8 +10,8 @@ jobs:
     - name: BoowindCSS-deploy
       uses: jenkey2011/vuepress-deploy@master
       env:
-        ACCESS_TOKEN: ${{ secrets.BOOWINDCSS_DEPLOYMENT_SECRET }}
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: nawazishali/BoowindCSS
-        TARGET_BRANCH: master
+        TARGET_BRANCH: gh_pages
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: src/.vuepress/dist
