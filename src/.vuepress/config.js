@@ -26,6 +26,15 @@ module.exports = {
     ['link', {rel:'stylesheet', href:'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/atom-one-dark.min.css'}],
     ['script', {src: 'https://unpkg.com/highlightjs-badge/highlightjs-badge.min.js'}],
     ['link', {rel:'stylesheet', href:'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css'}],
+    ['script',{async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-V5HR7GG5Q0'}],
+    ['script',{},[
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-V5HR7GG5Q0');`
+      ]
+    ],
   ],
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
@@ -82,11 +91,5 @@ module.exports = {
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
     ['vuepress-plugin-code-copy', true],
-    [
-      '@vuepress/google-analytics',
-      {
-        'ga': 'G-V5HR7GG5Q0' // UA-00000000-0
-      }
-    ]
   ]
 }
