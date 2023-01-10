@@ -71,7 +71,8 @@ module.exports = {
             'buttons',
             'button-group',
             'card',
-            'list-group'
+            'list-group',
+            'navs',
           ]
         }
       ],
