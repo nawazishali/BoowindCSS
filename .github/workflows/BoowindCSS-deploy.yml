@@ -1,5 +1,7 @@
 name: Build and Deploy
-on: [push]
+on:
+  push:
+    branches: [ $default-branch ]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
