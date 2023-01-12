@@ -75,7 +75,8 @@ module.exports = {
             'dropdowns',
             'list-group',
             'navs',
-            'pagination'
+            'navbar',
+            'pagination',
           ]
         }
       ],
