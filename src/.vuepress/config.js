@@ -73,6 +73,7 @@ module.exports = {
             'card',
             'list-group',
             'navs',
+            'pagination'
           ]
         }
       ],
