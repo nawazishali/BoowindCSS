@@ -72,6 +72,7 @@ module.exports = {
             'buttons',
             'button-group',
             'card',
+            'dropdowns',
             'list-group',
             'navs',
             'pagination'
