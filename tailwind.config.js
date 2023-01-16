@@ -1,10 +1,12 @@
 module.exports = {
   future: {
     // removeDeprecatedGapUtilities: true,
-    // purgeLayersByDefault: true,
+    purgeLayersByDefault: true,
   },
   purge: [
-    './src/docs/*.md'
+    './src/**/*.md',
+    './src/.vuepress/components/*.vue',
+    './src/.vuepress/components/**/*.vue',
   ],
   theme: {
     extend: {},
