@@ -5,8 +5,8 @@
  */
 
 // import CodeEditor from 'simple-code-editor';
-import hljsPlugin from './hljs-plugin';
-import formatHtml from './formatHtml-plugin';
+import hljsPlugin from './plugins/hljs-plugin';
+import formatHtml from './plugins/formatHtml-plugin';
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app
