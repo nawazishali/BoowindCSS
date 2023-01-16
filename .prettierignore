@@ -1,0 +1,4 @@
+package.json
+yarn.lock
+.vuepress/dist
+docs
