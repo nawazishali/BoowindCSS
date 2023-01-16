@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "autoprefixer": "^9.8.6",
+    "highlight.js": "^11.7.0",
     "tailwindcss": "^1.9.6",
     "vuepress-plugin-code-copy": "^1.0.6"
   }

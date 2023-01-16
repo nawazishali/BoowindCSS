@@ -4,9 +4,8 @@
  * https://v1.vuepress.vuejs.org/guide/basic-config.html#app-level-enhancements
  */
 
-//  import hljs from 'highlight.js/lib/common';
-//  import hljsVuePlugin from "@highlightjs/vue-plugin";
 // import CodeEditor from 'simple-code-editor';
+import hljsPlugin from './hljs-plugin';
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app
@@ -16,4 +15,5 @@ export default ({
 }) => {
   // ...apply enhancements for the site.
   // Vue.component('code-editor', CodeEditor)
+  Vue.use(hljsPlugin);
 }
