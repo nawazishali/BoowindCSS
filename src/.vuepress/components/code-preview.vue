@@ -3,24 +3,34 @@
     <nav class="box-border flex flex-wrap text-center list-none">
       <button
         type="button"
-        @click="() => (this.showCode = false)"
+        @click="handleTabClick(1)"
         class="inline-block px-3 py-2 text-base font-normal leading-6 no-underline align-middle border-t border-l border-r cursor-pointer rounded-t-md focus:outline-none"
-        :class="[!showCode ? 'border-gray-400' : 'border-transparent text-gray-600']">
-        Preview <i class="fa fa-eye" aria-hidden="true"></i>
+        :class="[showPreview ? 'border-gray-400' : 'border-transparent text-gray-600']">
+        Preview <i class="far fa-eye"></i>
       </button>
       <button
         type="button"
-        @click="() => (this.showCode = true)"
+        @click="handleTabClick(2)"
         class="inline-block px-3 py-2 text-base font-normal leading-6 no-underline align-middle cursor-pointer rounded-t-md focus:outline-none"
-        :class="[showCode ? 'text-white bg-editor-color' : 'text-gray-600']">
-        HTML <i class="fa fa-code" aria-hidden="true"></i>
+        :class="[showHtml ? 'text-white bg-editor-color' : 'text-gray-600']">
+        HTML <i class="fab fa-html5"></i>
+      </button>
+      <button
+        type="button"
+        @click="handleTabClick(3)"
+        class="inline-block px-3 py-2 text-base font-normal leading-6 no-underline align-middle cursor-pointer rounded-t-md focus:outline-none"
+        :class="[showJsx ? 'text-white bg-editor-color' : 'text-gray-600']">
+        JSX <i class="fab fa-react"></i>
       </button>
     </nav>
-    <div v-if="!showCode" ref="slot" class="p-4 border border-transparent border-gray-300 border-solid rounded-md rounded-tl-none bg-pattern">
+    <div v-show="showPreview" ref="slot" class="p-4 border border-transparent border-gray-300 border-solid rounded-md rounded-tl-none bg-pattern">
       <slot></slot>
     </div>
-    <pre v-if="showCode" class="pt-6 overflow-hidden border-transparent border-gray-300 border-solid rounded-md">
-		  <code class="language-html" ref="code" v-text="templateText"></code>
+    <pre v-show="showHtml" class="pt-6 overflow-hidden border-transparent border-gray-300 border-solid rounded-md">
+		  <code class="language-html" ref="htmlTemplate" v-text="htmlTemplate"></code>
+	  </pre>
+    <pre v-show="showJsx" class="pt-6 overflow-hidden border-transparent border-gray-300 border-solid rounded-md">
+		  <code class="language-html" ref="jsxTemplate" v-text="jsxTemplate"></code>
 	  </pre>
   </div>
 </template>
@@ -29,8 +39,9 @@
 export default {
   data() {
     return {
-      templateText: '',
-      showCode: false,
+      htmlTemplate: '',
+      jsxTemplate: '',
+      selectedTab: 1,
     }
   },
   mounted() {
@@ -38,10 +49,32 @@ export default {
     // console.log(this.$refs.slot.innerHTML)
     // console.log(this.$refs.slot.innerText)
     // console.log(this.$slots.default)
-    this.templateText = this.$formatHtml(this.$refs.slot.innerHTML)
+    this.htmlTemplate = this.$formatHtml(this.$refs.slot.innerHTML)
+    this.jsxTemplate = this.$formatHtml(
+      this.$refs.slot.innerHTML
+      .replace(/class=/g, 'className=')
+      .replace(/for=/g, 'htmlFor=')
+    )
+  },
+  methods: {
+    handleTabClick(tabNumber) {
+      this.selectedTab = tabNumber
+    },
+  },
+  computed: {
+    showPreview() {
+      return this.selectedTab === 1
+    },
+    showHtml() {
+      return this.selectedTab === 2
+    },
+    showJsx() {
+      return this.selectedTab === 3
+    },
   },
   updated() {
-    if (this.showCode) this.$hljs.highlightElement(this.$refs.code)
+    this.$hljs.highlightElement(this.$refs.htmlTemplate)
+    this.$hljs.highlightElement(this.$refs.jsxTemplate)
   },
 }
 </script>
