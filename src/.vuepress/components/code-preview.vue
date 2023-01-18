@@ -23,13 +23,13 @@
         JSX <i class="fab fa-react"></i>
       </button>
     </nav>
-    <div v-show="showPreview" ref="slot" class="p-4 border border-transparent border-gray-300 border-solid rounded-md rounded-tl-none bg-pattern">
+    <div v-show="showPreview" ref="slot" class="p-4 border border-transparent border-gray-300 border-solid rounded-md rounded-tl-none shadow bg-pattern">
       <slot></slot>
     </div>
-    <pre v-show="showHtml" class="pt-6 overflow-hidden border-transparent border-gray-300 border-solid rounded-md">
+    <pre v-show="showHtml" class="pt-6 overflow-hidden border-transparent border-gray-300 border-solid rounded-md shadow">
 		  <code class="language-html" ref="htmlTemplate" v-text="htmlTemplate"></code>
 	  </pre>
-    <pre v-show="showJsx" class="pt-6 overflow-hidden border-transparent border-gray-300 border-solid rounded-md">
+    <pre v-show="showJsx" class="pt-6 overflow-hidden border-transparent border-gray-300 border-solid rounded-md shadow">
 		  <code class="language-html" ref="jsxTemplate" v-text="jsxTemplate"></code>
 	  </pre>
   </div>

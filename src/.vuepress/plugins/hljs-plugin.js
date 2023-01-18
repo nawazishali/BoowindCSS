@@ -1,5 +1,6 @@
 import hljs from "highlight.js";
 import "highlight.js/styles/atom-one-dark.css";
+import CopyButtonPlugin from "./hljs-copy";
 
 export default {
   install(Vue,) {

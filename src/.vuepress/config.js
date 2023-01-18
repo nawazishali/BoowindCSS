@@ -19,7 +19,6 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['script', {src:'https://unpkg.com/highlightjs-copy@1.0.3/dist/highlightjs-copy.min.js'}],
     ['link', {rel:'stylesheet', href:'https://unpkg.com/highlightjs-copy@1.0.3/dist/highlightjs-copy.min.css'}],
     ['link', {rel:'stylesheet', href:'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css'}],
     ['script',{async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-V5HR7GG5Q0'}],
@@ -86,8 +85,6 @@ module.exports = {
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
   plugins: [
-    '@vuepress/plugin-back-to-top',
-    '@vuepress/plugin-medium-zoom',
     ['vuepress-plugin-code-copy', true],
   ]
 }
