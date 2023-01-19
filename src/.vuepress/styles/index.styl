@@ -20,31 +20,41 @@ body {
 }
 
 .theme-default-content:not(.custom)
-  max-width: 900px
+  // max-width 1000px
+  // padding-inline 0
+  // margin 0
+
+a.header-anchor 
+  color #563D7C
+  @apply text-5xl -mt-2
+
+.navbar .search-box input
+  width 40rem
+  background-size 1.2rem
+  @apply mr-32 rounded-md h-10 pl-10 bg-gray-100 border-transparent text-lg font-normal
 
 .home .hero img
-  max-width 450px!important
+  // max-width 450px!important
 
 h1
-  @apply text-4xl font-medium
+  @apply text-4xl font-extrabold
 h2
-  @apply text-3xl font-medium
+  @apply text-3xl font-extrabold
 h3
-  @apply text-2xl font-medium
+  @apply text-2xl font-extrabold
 h4
-  @apply text-xl font-medium
+  @apply text-xl font-extrabold
 h5
-  @apply text-lg font-medium
+  @apply text-lg font-extrabold
 h6
-  @apply text-base font-medium
+  @apply text-base font-extrabold
 
 a 
   font-weight unset
 
 *::-webkit-scrollbar
-  width 6px
-  height 6px
-  background-color rgba(86, 61, 124, 0.226)
+  width 10px
+  // background-color rgba(86, 61, 124, 0.226)
 
 *::-webkit-scrollbar-thumb
   border-radius 10px

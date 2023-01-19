@@ -37,29 +37,35 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '',
+    repo: 'https://github.com/nawazishali/BoowindCSS',
     editLinks: false,
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
+    logo: '/boowindcss.svg',
+    searchPlaceholder: 'Search Documentation...',
+    smoothScroll: true,
     nav: [
+      { text: 'Home', link: '/' },
       {
-        text: 'Documentation',
+        text: 'Docs',
         link: '/docs/',
-      },
-      {
-        text: 'Github',
-        link: 'https://github.com/nawazishali/BoowindCSS'
       }
     ],
     sidebar: {
       '/docs/': [
         {
-          title: 'Documentation',
+          title: 'Guide',
+          collapsable: true,
+          children: [
+            'intro',
+            // 'get-started',
+          ]
+        },
+        {
+          title: 'Components',
           collapsable: false,
           children: [
-            '',
-            'get-started',
             'alerts',
             'badge',
             'breadcrumb',
