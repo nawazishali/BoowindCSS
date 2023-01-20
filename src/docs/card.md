@@ -5,7 +5,7 @@
 <code-preview>
   <template>
     <div class="flex flex-col w-full overflow-auto bg-white border border-gray-400 rounded sm:w-2/5">
-      <div class="h-1/3"><img src="https://picsum.photos/500/250" alt="placeholder" class="object-cover min-w-full" /></div>
+      <img src="https://picsum.photos/500/250" alt="placeholder" class="object-cover h-48 min-w-full" />
       <div class="p-4 h-2/3">
         <h5 class="mb-3 text-xl font-medium">Card With top Image</h5>
         <p class="mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -23,7 +23,7 @@
         <p class="mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         <a href="#!" role="button" class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-white align-middle bg-blue-600 border-transparent border-solid rounded cursor-pointer hover:bg-blue-700 hover:no-underline focus:outline-none active:bg-blue-700 active:no-underline">Go somewhere</a>
       </div>
-      <div class="h-1/3"><img src="https://picsum.photos/500/250" alt="placeholder" class="object-cover min-w-full" /></div>
+      <img src="https://picsum.photos/500/250" alt="placeholder" class="object-cover h-48 min-w-full" />
     </div>
   </template>
 </code-preview>

@@ -76,9 +76,9 @@
 ## Dismissing
 
 <code-preview>
-  <div class="relative px-5 py-3 mt-4 text-base text-yellow-800 bg-yellow-200 border border-yellow-300 border-solid rounded pr-9" role="alert">
-    <strong>Holy guacamole!</strong> You should check in on some of those fields below.
-    <button type="button" class="absolute inset-y-0 right-0 block px-4 text-2xl font-semibold text-yellow-600" data-dismiss="alert" aria-label="Close">
+  <div role="alert" class="grid items-center justify-between grid-flow-col px-5 py-3 mt-4 text-base text-yellow-800 bg-yellow-200 border border-yellow-300 border-solid rounded pr-9">
+    <p class="m-0"><strong>Holy guacamole!</strong> You should check in on some of those fields below.</p>
+    <button type="button" data-dismiss="alert" aria-label="Close" class="block w-8 h-full text-2xl font-semibold text-yellow-600">
       <span aria-hidden="true">&times;</span>
     </button>
   </div>
