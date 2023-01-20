@@ -83,9 +83,6 @@
         <a class="inline-block px-4 py-3 text-base font-normal leading-6 text-blue-600 no-underline align-middle border-t border-b-0 border-l border-r border-transparent border-solid cursor-pointer focus:border-gray-400 rounded-t-md hover:text-blue-700 focus:outline-none active:text-blue-700" href="#">Link</a>
       </li>
       <li>
-        <a class="inline-block px-4 py-3 text-base font-normal leading-6 text-blue-600 no-underline align-middle border-t border-b-0 border-l border-r border-transparent border-solid cursor-pointer focus:border-gray-400 rounded-t-md hover:text-blue-700 focus:outline-none active:text-blue-700" href="#">Link</a>
-      </li>
-      <li>
         <a class="inline-block px-4 py-3 text-base font-normal leading-6 text-gray-600 no-underline align-middle border-t border-b-0 border-l border-r border-transparent border-solid cursor-not-allowed pointer-events-none focus:border-gray-400 rounded-t-md hover:gray-blue-700 focus:outline-none active:text-gray-700">Disabled</a>
       </li>
     </ul>
