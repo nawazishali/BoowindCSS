@@ -39,17 +39,17 @@ module.exports = {
   themeConfig: {
     repo: 'https://github.com/nawazishali/BoowindCSS',
     editLinks: false,
-    docsDir: '',
+    docsDir: 'docs/intro',
     editLinkText: '',
     lastUpdated: false,
     logo: '/boowindcss.svg',
-    searchPlaceholder: 'Search Documentation...',
+    searchPlaceholder: 'Search Docs...',
     smoothScroll: true,
     nav: [
       { text: 'Home', link: '/' },
       {
         text: 'Docs',
-        link: '/docs/',
+        link: '/docs/intro',
       }
     ],
     sidebar: {
