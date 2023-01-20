@@ -5,21 +5,21 @@
         type="button"
         @click="handleTabClick(1)"
         class="inline-block px-3 py-2 text-base font-normal leading-6 no-underline align-middle border-t border-l border-r cursor-pointer rounded-t-md focus:outline-none"
-        :class="[showPreview ? 'border-gray-400' : 'border-transparent text-gray-600']">
+        :class="[showPreview ? 'border-gray-400' : 'border-transparent text-green-700']">
         Preview <i class="far fa-eye"></i>
       </button>
       <button
         type="button"
         @click="handleTabClick(2)"
         class="inline-block px-3 py-2 text-base font-normal leading-6 no-underline align-middle cursor-pointer rounded-t-md focus:outline-none"
-        :class="[showHtml ? 'text-white bg-editor-color' : 'text-gray-600']">
+        :class="[showHtml ? 'text-white bg-editor-color' : 'text-orange-700']">
         HTML <i class="fab fa-html5"></i>
       </button>
       <button
         type="button"
         @click="handleTabClick(3)"
         class="inline-block px-3 py-2 text-base font-normal leading-6 no-underline align-middle cursor-pointer rounded-t-md focus:outline-none"
-        :class="[showJsx ? 'text-white bg-editor-color' : 'text-gray-600']">
+        :class="[showJsx ? 'text-white bg-editor-color' : 'text-purple-800']">
         JSX <i class="fab fa-react"></i>
       </button>
     </nav>
