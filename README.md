@@ -15,4 +15,4 @@ Make sure you have TailwindCSS configured for your project in order to use these
 Goto [BoowindCSS](https://boowindcss.js.org) docs website and start copy pasting the templates you need into your project, Feel free to customize as you want.
 
 ### Note
-This is a work in progress so you might not find all components yet alsong with some missing steps in the usage guide. In the coming days I will be setting up a roadmap and create issues accordingly to track progress.
+This is a work in progress so you might not find all components yet along with some missing steps in the usage guide. In the coming days I will be setting up a roadmap and create issues accordingly to track progress.
