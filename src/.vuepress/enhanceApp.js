@@ -8,18 +8,6 @@
 import hljsPlugin from './plugins/hljs-plugin';
 import formatHtml from './plugins/formatHtml-plugin';
 
-// window.onload = (event) => {
-//   const dropdowns = document.querySelectorAll(".dropdown");
-//   dropdowns.forEach((dropdown) => {
-//     document.addEventListener("click", function (e) {
-//       var insideDropdown = dropdown.contains(e.target);
-//       if (!insideDropdown) {
-//         dropdown.removeAttribute("open");
-//       }
-//     });
-//   })
-// }
-
 export default ({
   Vue, // the version of Vue being used in the VuePress app
   options, // the options for the root Vue instance

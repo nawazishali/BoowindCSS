@@ -71,3 +71,17 @@ a
   
 .home .hero img
   max-width 200px!important
+
+
+/* Closing the detail content on clicking anywhere else */
+/* This hack basically expands the summary button to whole page,
+ so the first event is capture by the tag after it's opened */
+// details[open] summary::before {
+//   position: fixed;
+//   top: 0;
+//   right: 0;
+//   bottom: 0;
+//   left: 0;
+//   content: "";
+//   cursor: default;
+// } 
