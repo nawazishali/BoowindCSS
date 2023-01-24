@@ -9,7 +9,11 @@ module.exports = {
     './src/.vuepress/components/**/*.vue',
   ],
   theme: {
-    extend: {},
+    extend: {
+      inset: {
+        'full': '100%',
+      }
+    },
   },
   variants: {
     backgroundColor: ["active", "focus", "hover", "disabled"],
