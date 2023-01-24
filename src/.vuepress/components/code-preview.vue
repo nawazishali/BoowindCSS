@@ -49,6 +49,15 @@ export default {
     // console.log(this.$refs.slot.innerHTML)
     // console.log(this.$refs.slot.innerText)
     // console.log(this.$slots.default)
+    const dropdowns = document.querySelectorAll(".dropdown");
+    dropdowns.forEach((dropdown) => {
+      document.addEventListener("click", function (e) {
+        var insideDropdown = dropdown.contains(e.target);
+        if (!insideDropdown) {
+          dropdown.removeAttribute("open");
+        }
+      });
+    })
     this.htmlTemplate = this.$formatHtml(this.$refs.slot.innerHTML)
     this.jsxTemplate = this.$formatHtml(
       this.$refs.slot.innerHTML
