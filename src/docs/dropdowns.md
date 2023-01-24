@@ -336,12 +336,6 @@
           tabindex="0"
           href="#"
           class="block px-4 py-2 text-base font-normal leading-6 text-gray-800 no-underline align-middle cursor-pointer hover:bg-gray-300">
-          Another action
-        </a>
-        <a
-          tabindex="0"
-          href="#"
-          class="block px-4 py-2 text-base font-normal leading-6 text-gray-800 no-underline align-middle cursor-pointer hover:bg-gray-300">
           Something else here
         </a>
       </div>
@@ -362,12 +356,6 @@
           href="#"
           class="block px-4 py-2 text-base font-normal leading-6 text-gray-800 no-underline align-middle cursor-pointer hover:bg-gray-300">
           Action
-        </a>
-        <a
-          tabindex="0"
-          href="#"
-          class="block px-4 py-2 text-base font-normal leading-6 text-gray-800 no-underline align-middle cursor-pointer hover:bg-gray-300">
-          Another action
         </a>
         <a
           tabindex="0"
@@ -398,18 +386,13 @@
           tabindex="0"
           href="#"
           class="block px-4 py-2 text-base font-normal leading-6 text-gray-800 no-underline align-middle cursor-pointer hover:bg-gray-300">
-          Another action
-        </a>
-        <a
-          tabindex="0"
-          href="#"
-          class="block px-4 py-2 text-base font-normal leading-6 text-gray-800 no-underline align-middle cursor-pointer hover:bg-gray-300">
           Something else here
         </a>
       </div>
     </details>
   </template>
 </code-preview>
+
 <code-preview>
   <template>
     <details class="relative inline-block dropdown">
@@ -428,8 +411,37 @@
           tabindex="0"
           href="#"
           class="block px-4 py-2 text-base font-normal leading-6 text-gray-800 no-underline align-middle cursor-pointer hover:bg-gray-300">
+          Something else here
+        </a>
+      </div>
+    </details>
+  </template>
+</code-preview>
+
+## Headers and Dividers
+
+<code-preview>
+  <template>
+    <details class="relative inline-block dropdown">
+      <summary class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-white align-middle list-none bg-gray-600 border-transparent border-solid rounded cursor-pointer hover:bg-gray-700 active:bg-gray-700">
+        Dropdown
+        <i class="fa-solid fa-caret-down"></i>
+      </summary>
+      <div class="absolute z-20 w-auto py-2 text-left whitespace-no-wrap bg-white border border-gray-400 rounded">
+        <h3 class="px-4 py-2 text-base font-normal leading-6 text-gray-600">Menu header</h3>
+        <a
+          tabindex="0"
+          href="#"
+          class="block px-4 py-2 text-base font-normal leading-6 text-gray-800 no-underline align-middle cursor-pointer hover:bg-gray-300">
+          Action
+        </a>
+        <a
+          tabindex="0"
+          href="#"
+          class="block px-4 py-2 text-base font-normal leading-6 text-gray-800 no-underline align-middle cursor-pointer hover:bg-gray-300">
           Another action
         </a>
+        <hr/>
         <a
           tabindex="0"
           href="#"
