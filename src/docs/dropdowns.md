@@ -452,3 +452,47 @@
     </details>
   </template>
 </code-preview>
+
+## Dropdown forms
+
+<code-preview>
+  <template>
+    <details class="relative inline-block dropdown">
+      <summary class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-white align-middle list-none bg-gray-600 border-transparent border-solid rounded cursor-pointer hover:bg-gray-700 active:bg-gray-700">
+        Dropdown Form
+        <i class="fa-solid fa-caret-down"></i>
+      </summary>
+      <div class="absolute z-20 w-auto py-2 text-left whitespace-no-wrap bg-white border border-gray-400 rounded">
+        <h3 class="px-6 py-3 text-xl font-normal leading-6 text-gray-600">Login Form</h3>
+        <form class="flex flex-row flex-wrap gap-3 px-6 py-3">
+          <div class="flex flex-row flex-wrap gap-1">
+            <label for="email">Email address</label>
+            <input class="px-3 py-2 placeholder-gray-600 align-middle bg-white border border-gray-400 rounded outline-none focus:border-blue-600 focus:shadow-outline" type="email" name="email" placeholder="user@example.com" aria-label="Email">
+          </div>
+          <div class="flex flex-row flex-wrap gap-1">
+            <label for="password">Password</label>
+            <input class="px-3 py-2 placeholder-gray-600 align-middle bg-white border border-gray-400 rounded outline-none focus:border-blue-600 focus:shadow-outline" type="password" name="password" placeholder="Password" aria-label="Password">
+          </div>
+          <button
+            type="button"
+            class="inline-block px-3 py-2 text-base font-normal leading-6 text-center text-white align-middle bg-blue-600 border-transparent border-solid rounded cursor-pointer hover:bg-blue-700 active:bg-blue-700">
+            Sign in
+          </button>
+        </form>
+        <hr/>
+        <a
+          tabindex="0"
+          href="#"
+          class="block px-4 py-2 text-base font-normal leading-6 text-gray-800 no-underline align-middle cursor-pointer hover:bg-gray-300">
+          New around here? Sign up
+        </a>
+        <a
+          tabindex="0"
+          href="#"
+          class="block px-4 py-2 text-base font-normal leading-6 text-gray-800 no-underline align-middle cursor-pointer hover:bg-gray-300">
+          Forgot password?
+        </a>
+      </div>
+    </details>
+  </template>
+</code-preview>
