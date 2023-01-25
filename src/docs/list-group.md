@@ -47,11 +47,11 @@
 <code-preview>
   <template>
     <ul class="max-w-sm overflow-hidden border border-gray-300 rounded">
-        <a href="#" class="block px-5 py-3 m-0 text-white no-underline bg-blue-600 border-b border-gray-300" aria-current="true"> The current link item </a>
-        <a href="#" class="block px-5 py-3 m-0 no-underline bg-white border-b border-gray-300">A second link item</a>
-        <a href="#" class="block px-5 py-3 m-0 no-underline bg-white border-b border-gray-300">A third link item</a>
-        <a href="#" class="block px-5 py-3 m-0 no-underline bg-white border-b border-gray-300">A fourth link item</a>
-        <a class="block px-5 py-3 m-0 text-gray-400 no-underline bg-white">A disabled link item</a>
+        <a href="#" class="block px-5 py-3 m-0 text-current text-white no-underline bg-blue-600 border-b border-gray-300" aria-current="true"> The current link item </a>
+        <a href="#" class="block px-5 py-3 m-0 text-current no-underline bg-white border-b border-gray-300">A second link item</a>
+        <a href="#" class="block px-5 py-3 m-0 text-current no-underline bg-white border-b border-gray-300">A third link item</a>
+        <a href="#" class="block px-5 py-3 m-0 text-current no-underline bg-white border-b border-gray-300">A fourth link item</a>
+        <a class="block px-5 py-3 m-0 text-current text-gray-400 no-underline bg-white">A disabled link item</a>
     </ul>
   </template>
 </code-preview>
@@ -132,23 +132,23 @@
           <h5 class="mb-1 text-xl">List group item heading</h5>
           <small>3 days ago</small>
         </div>
-        <p class="mb-1">Some placeholder content in a paragraph.</p>
+        <p class="m-0 mb-1">Some placeholder content in a paragraph.</p>
         <small>And some small print.</small>
       </a>
-      <a href="#" class="block px-5 py-3 m-0 no-underline bg-white border-b border-gray-300">
+      <a href="#" class="block px-5 py-3 m-0 text-current no-underline bg-white border-b border-gray-300">
         <div class="flex flex-row justify-between d-flex w-100 justify-content-between">
           <h5 class="mb-1 text-xl">List group item heading</h5>
           <small class="text-gray-500">3 days ago</small>
         </div>
-        <p class="mb-1">Some placeholder content in a paragraph.</p>
+        <p class="m-0 mb-1">Some placeholder content in a paragraph.</p>
         <small class="text-gray-500">And some muted small print.</small>
       </a>
-      <a href="#" class="block px-5 py-3 m-0 no-underline bg-white">
+      <a href="#" class="block px-5 py-3 m-0 text-current no-underline bg-white">
         <div class="flex flex-row justify-between d-flex w-100 justify-content-between">
           <h5 class="mb-1 text-xl">List group item heading</h5>
           <small class="text-gray-500">3 days ago</small>
         </div>
-        <p class="mb-1">Some placeholder content in a paragraph.</p>
+        <p class="m-0 mb-1">Some placeholder content in a paragraph.</p>
         <small class="text-gray-500">And some muted small print.</small>
       </a>
     </div>

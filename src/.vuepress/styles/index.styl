@@ -29,22 +29,24 @@ body
   text-align left
   background-color white
 h1
-  @apply text-4xl font-extrabold
+  @apply text-4xl font-medium
 h2
-  @apply text-3xl font-extrabold
+  @apply text-3xl font-medium
 h3
-  @apply text-2xl font-extrabold
+  @apply text-2xl font-medium
 h4
-  @apply text-xl font-extrabold
+  @apply text-xl font-medium
 h5
-  @apply text-lg font-extrabold
+  @apply text-lg font-medium
 h6
-  @apply text-base font-extrabold
+  @apply text-base font-medium
+p
+  @apply mt-5
 a 
   font-weight unset
+  color $accentColor
   &.header-anchor 
-    color $accentColor
-    @apply text-5xl -mt-2
+    @apply text-4xl -mt-1
     @media (max-width: 719px)
       @apply text-2xl mt-1
 

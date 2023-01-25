@@ -6,7 +6,7 @@
   <template>
   <nav class="flex flex-col items-center px-3 py-3 bg-gray-100 md:py-1 md:flex-row">
   <div class="flex items-center justify-between w-full h-full md:w-auto">
-    <a class="text-xl" href="#">Navbar</a>
+    <a class="text-current text-xl" href="#">Navbar</a>
     <button class="md:hidden" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <i class="fa-solid fa-xl fa-bars"></i>
     </button>

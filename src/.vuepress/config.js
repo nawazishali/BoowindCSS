@@ -59,7 +59,7 @@ module.exports = {
           collapsable: true,
           children: [
             'intro',
-            // 'get-started',
+            'get-started',
           ]
         },
         {
