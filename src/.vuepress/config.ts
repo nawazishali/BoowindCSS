@@ -1,20 +1,10 @@
-const { description } = require('../../package')
+// const { description } = require('../../package')
+import { shikiPlugin } from '@vuepress/plugin-shiki'
+import { defaultTheme } from '@vuepress/theme-default'
 
-module.exports = {
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#title
-   */
+export default {
   title: 'BoowindCSS',
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#description
-   */
-  description: description,
-
-  /**
-   * Extra tags to be injected to the page HTML `<head>`
-   *
-   * ref：https://v1.vuepress.vuejs.org/config/#head
-   */
+  // description: description,
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
@@ -31,12 +21,7 @@ module.exports = {
       ]
     ],
   ],
-  /**
-   * Theme configuration, here is the default theme configuration for VuePress.
-   *
-   * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
-   */
-  themeConfig: {
+  theme: defaultTheme({
     repo: 'https://github.com/nawazishali/BoowindCSS',
     editLinks: false,
     docsDir: 'docs/intro',
@@ -45,13 +30,14 @@ module.exports = {
     logo: '/boowindcss.svg',
     searchPlaceholder: 'Search Docs...',
     smoothScroll: true,
-    nav: [
+    navbar: [
       { text: 'Home', link: '/' },
       {
         text: 'Docs',
         link: '/docs/intro',
       }
     ],
+    sidebarDepth: 1,
     sidebar: {
       '/docs/': [
         {
@@ -81,11 +67,62 @@ module.exports = {
         }
       ],
     }
-  },
+  }),
+  /**
+   * Theme configuration, here is the default theme configuration for VuePress.
+   *
+   * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
+   */
+  // themeConfig: {
+  //   repo: 'https://github.com/nawazishali/BoowindCSS',
+  //   editLinks: false,
+  //   docsDir: 'docs/intro',
+  //   editLinkText: '',
+  //   lastUpdated: false,
+  //   logo: '/boowindcss.svg',
+  //   searchPlaceholder: 'Search Docs...',
+  //   smoothScroll: true,
+  //   nav: [
+  //     { text: 'Home', link: '/' },
+  //     {
+  //       text: 'Docs',
+  //       link: '/docs/intro',
+  //     }
+  //   ],
+  //   sidebar: {
+  //     '/docs/': [
+  //       {
+  //         title: 'Guide',
+  //         collapsable: true,
+  //         children: [
+  //           'intro',
+  //           'get-started',
+  //         ]
+  //       },
+  //       {
+  //         title: 'Components',
+  //         collapsable: false,
+  //         children: [
+  //           'alerts',
+  //           'badge',
+  //           'breadcrumb',
+  //           'buttons',
+  //           'button-group',
+  //           'card',
+  //           'dropdowns',
+  //           'list-group',
+  //           'navs',
+  //           'navbar',
+  //           'pagination',
+  //         ]
+  //       }
+  //     ],
+  //   }
+  // },
   postcss: {
     plugins: [
-      require("autoprefixer"),
-      require("tailwindcss")("./tailwind.config.js")
+      // require("autoprefixer"),
+      // require("tailwindcss")("./tailwind.config.js")
     ]
   },
 
@@ -93,6 +130,9 @@ module.exports = {
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
   plugins: [
-    ['vuepress-plugin-code-copy', true],
+    // ['vuepress-plugin-code-copy', true],
+    shikiPlugin({
+      // options
+    }),
   ]
 }
