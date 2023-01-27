@@ -88,11 +88,11 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 pre {
   line-height: 0 !important;
   margin: 0 !important;
-  border-radius: 0 !important;
+  background-color: var(--code-bg-color) !important;
 }
 code {
   font-size: 13px !important;

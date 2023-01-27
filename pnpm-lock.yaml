@@ -2,9 +2,12 @@ lockfileVersion: 5.4
 
 specifiers:
   '@vuepress/client': 2.0.0-beta.60
+  '@vuepress/plugin-register-components': 2.0.0-beta.60
+  '@vuepress/plugin-search': 2.0.0-beta.60
   '@vuepress/plugin-shiki': ^2.0.0-beta.60
   '@vuepress/theme-default': 2.0.0-beta.60
-  autoprefixer: ^9.8.6
+  '@vuepress/utils': 2.0.0-beta.60
+  autoprefixer: ^9.8.8
   highlight.js: ^11.7.0
   prettier: 2.8.3
   tailwindcss: ^1.9.6
@@ -20,8 +23,11 @@ dependencies:
 
 devDependencies:
   '@vuepress/client': 2.0.0-beta.60
+  '@vuepress/plugin-register-components': 2.0.0-beta.60
+  '@vuepress/plugin-search': 2.0.0-beta.60
   '@vuepress/plugin-shiki': 2.0.0-beta.50-pre.1
   '@vuepress/theme-default': 2.0.0-beta.60
+  '@vuepress/utils': 2.0.0-beta.60
   prettier: 2.8.3
   vue: 3.2.45
   vuepress: 2.0.0-beta.60_dlgznq46b2nyvtu5wqobknojfm
@@ -785,6 +791,30 @@ packages:
     dependencies:
       '@vuepress/core': 2.0.0-beta.60
       prismjs: 1.29.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@vuepress/plugin-register-components/2.0.0-beta.60:
+    resolution: {integrity: sha512-IG4+Dy1O/0dS0r9ytqAOcHFgMu1Jm8d4nDNEKV9ZT7QhWyeqy8+EL2Gtez5vq29YbPL9FqZZdwVpb9WPAD78Gw==}
+    dependencies:
+      '@vuepress/core': 2.0.0-beta.60
+      '@vuepress/utils': 2.0.0-beta.60
+      chokidar: 3.5.3
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@vuepress/plugin-search/2.0.0-beta.60:
+    resolution: {integrity: sha512-9ENqni4H35/L6vab5DpQfy92DcKPL+36xxoOj1EqZfjU/IlIOFKz4TK8JwhaX+reswokF8NriPFcWol4xIa5IA==}
+    dependencies:
+      '@vuepress/client': 2.0.0-beta.60
+      '@vuepress/core': 2.0.0-beta.60
+      '@vuepress/shared': 2.0.0-beta.60
+      '@vuepress/utils': 2.0.0-beta.60
+      chokidar: 3.5.3
+      vue: 3.2.45
+      vue-router: 4.1.6_vue@3.2.45
     transitivePeerDependencies:
       - supports-color
     dev: true

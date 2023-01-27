@@ -3,7 +3,6 @@
 ## Base navbar
 
 <code-preview>
-  <template>
     <nav class="flex flex-row items-center justify-between px-3 py-3 bg-gray-100 md:py-1 md:flex-row">
       <div class="flex items-center justify-between w-full h-full md:w-auto md:mr-6">
         <a href="#!" class="text-xl text-current no-underline">Navbar</a>
@@ -78,13 +77,11 @@
         </form>
       </div>
     </nav>
-  </template>
 </code-preview>
 
 ## Navbar Logo
 
 <code-preview>
-  <template>
     <nav class="flex flex-row items-center justify-between px-3 py-3 bg-gray-100 md:py-1 md:flex-row">
       <div class="flex items-center justify-between w-full h-full md:w-auto md:mr-6">
         <a href="#!" class="w-auto text-xl text-current no-underline whitespace-no-wrap">
@@ -155,5 +152,4 @@
         </form>
       </div>
     </nav>
-  </template>
 </code-preview>
