@@ -3,9 +3,9 @@ import "highlight.js/styles/atom-one-dark.css";
 import CopyButtonPlugin from "./hljs-copy";
 
 export default {
-  install(Vue,) {
+  install(app, options) {
     hljs.configure({ ignoreUnescapedHTML: true });
     hljs.addPlugin(new CopyButtonPlugin());
-    Object.defineProperty(Vue.prototype, '$hljs', { value: hljs });
+    app.config.globalProperties.$hljs = hljs;
   }
 }

@@ -1,20 +1,15 @@
 const { description } = require('../../package')
+import { shikiPlugin } from '@vuepress/plugin-shiki'
+import { searchPlugin } from '@vuepress/plugin-search'
+import { defaultTheme } from '@vuepress/theme-default'
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
+import { getDirname, path } from '@vuepress/utils'
 
-module.exports = {
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#title
-   */
+const __dirname = getDirname(import.meta.url)
+
+export default {
   title: 'BoowindCSS',
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#description
-   */
   description: description,
-
-  /**
-   * Extra tags to be injected to the page HTML `<head>`
-   *
-   * ref：https://v1.vuepress.vuejs.org/config/#head
-   */
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
@@ -31,40 +26,33 @@ module.exports = {
       ]
     ],
   ],
-  /**
-   * Theme configuration, here is the default theme configuration for VuePress.
-   *
-   * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
-   */
-  themeConfig: {
+  theme: defaultTheme({
     repo: 'https://github.com/nawazishali/BoowindCSS',
-    editLinks: false,
+    editLink: false,
     docsDir: 'docs/intro',
-    editLinkText: '',
-    lastUpdated: false,
     logo: '/boowindcss.svg',
-    searchPlaceholder: 'Search Docs...',
-    smoothScroll: true,
-    nav: [
+    // searchPlaceholder: 'Search Docs...',
+    navbar: [
       { text: 'Home', link: '/' },
       {
         text: 'Docs',
         link: '/docs/intro',
       }
     ],
+    sidebarDepth: 1,
     sidebar: {
       '/docs/': [
         {
-          title: 'Guide',
-          collapsable: true,
+          text: 'Guide',
+          collapsible: true,
           children: [
             'intro',
             'get-started',
           ]
         },
         {
-          title: 'Components',
-          collapsable: false,
+          text: 'Components',
+          collapsible: false,
           children: [
             'alerts',
             'badge',
@@ -81,18 +69,19 @@ module.exports = {
         }
       ],
     }
-  },
-  postcss: {
-    plugins: [
-      require("autoprefixer"),
-      require("tailwindcss")("./tailwind.config.js")
-    ]
-  },
-
-  /**
-   * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
-   */
+  }),
   plugins: [
-    ['vuepress-plugin-code-copy', true],
+    // ['vuepress-plugin-code-copy', true],
+    shikiPlugin(),
+    registerComponentsPlugin({
+      componentsDir: path.resolve(__dirname, './components')
+    }),
+    searchPlugin({
+      locales: {
+        '/': {
+          placeholder: 'Search Docs...',
+        },
+      }
+    }),
   ]
 }

@@ -3,7 +3,7 @@ import prettier from 'prettier/standalone'
 import parserHtml from 'prettier/esm/parser-html.mjs'
 
 export default {
-  install(Vue) {
+  install(app, options) {
     let formatHtml = (
       html,
       config = {
@@ -16,6 +16,6 @@ export default {
     ) => {
       return prettier.format(html, config)
     }
-    Object.defineProperty(Vue.prototype, '$formatHtml', { value: formatHtml })
+    app.config.globalProperties.$formatHtml = formatHtml
   },
 }

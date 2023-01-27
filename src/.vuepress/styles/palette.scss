@@ -1,0 +1,70 @@
+/**
+ * Custom palette here.
+ *
+ * ref：https://vuepress.github.io/reference/default-theme/styles.html#style-file
+ */
+
+// $accentColor = #563D7C
+// $textColor = #2c3e50
+// $borderColor = #eaecef
+// $codeBgColor = #282c34
+
+
+:root, html.dark {
+  scroll-behavior: smooth;
+  // brand colors
+  --c-brand: #563D7C;
+  --c-brand-light: #563D7C;
+
+  // code blocks vars
+  --code-bg-color: #282c34;
+
+  // font vars
+  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  --font-family-code: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+
+  // layout vars
+  --navbar-height: 4rem;
+  --navbar-padding-v: 0.7rem;
+  --navbar-padding-h: 1.5rem;
+  --sidebar-width: 18rem;
+  --sidebar-width-mobile: calc(var(--sidebar-width) * 0.82);
+  --content-width: 1000px;
+  --homepage-width: 960px;
+}
+
+// plugin-back-to-top
+.back-to-top {
+  --back-to-top-color: var(--c-brand);
+  --back-to-top-color-hover: var(--c-brand-light);
+}
+
+// plugin-docsearch
+.DocSearch {
+  --docsearch-primary-color: var(--c-brand);
+  --docsearch-text-color: var(--c-text);
+  --docsearch-highlight-color: var(--c-brand);
+  --docsearch-muted-color: var(--c-text-quote);
+  --docsearch-container-background: rgba(9, 10, 17, 0.8);
+  --docsearch-modal-background: var(--c-bg-light);
+  --docsearch-searchbox-background: var(--c-bg-lighter);
+  --docsearch-searchbox-focus-background: var(--c-bg);
+  --docsearch-searchbox-shadow: inset 0 0 0 2px var(--c-brand);
+  --docsearch-hit-color: var(--c-text-light);
+  --docsearch-hit-active-color: var(--c-bg);
+  --docsearch-hit-background: var(--c-bg);
+  --docsearch-hit-shadow: 0 1px 3px 0 var(--c-border-dark);
+  --docsearch-footer-background: var(--c-bg);
+}
+
+// plugin-search
+.search-box {
+  --search-bg-color: var(--c-bg);
+  --search-accent-color: var(--c-brand);
+  --search-text-color: var(--c-text);
+  --search-border-color: var(--c-brand);
+
+  --search-item-text-color: var(--c-text-lighter);
+  --search-item-focus-bg-color: var(--c-bg-light);
+}

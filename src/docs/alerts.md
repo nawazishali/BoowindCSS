@@ -3,7 +3,6 @@
 ## Plain Alerts
 
 <code-preview>
-  <template>
     <div class="px-5 py-3 mt-2 text-base text-blue-800 bg-blue-200 border border-blue-300 border-solid rounded" role="alert">
       A simple primary alert—check it out!
     </div>
@@ -28,13 +27,11 @@
     <div class="px-5 py-3 mt-4 text-base text-gray-900 bg-gray-300 border border-gray-400 border-solid rounded" role="alert">
       A simple dark alert—check it out!
     </div>
-  </template>
 </code-preview>
 
 ## Alerts with Link
 
 <code-preview>
-  <template>
     <div class="px-5 py-3 mt-2 text-base text-blue-800 bg-blue-200 border border-blue-300 border-solid rounded" role="alert">
       A simple primary alert with <a href="#!" class="font-bold text-blue-900 hover:underline">an example link</a>. Give it a click if you like.
     </div>
@@ -59,7 +56,6 @@
     <div class="px-5 py-3 mt-4 text-base text-gray-900 bg-gray-300 border border-gray-400 border-solid rounded" role="alert">
       A simple dark alert with <a href="#!" class="font-bold text-gray-900 hover:underline">an example link</a>. Give it a click if you like.
     </div>
-  </template>
 </code-preview>
 
 ## Additional Content
