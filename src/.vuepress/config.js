@@ -73,6 +73,7 @@ module.exports = {
             'button-group',
             'card',
             'dropdowns',
+            'forms',
             'list-group',
             'navs',
             'navbar',
