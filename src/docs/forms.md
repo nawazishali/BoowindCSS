@@ -7,12 +7,12 @@
     <form class="px-6 py-3 bg-white">
       <div class="flex flex-col flex-wrap gap-2 mb-5">
         <label for="email">Email address</label>
-        <input class="px-3 py-2 placeholder-gray-600 align-middle bg-white border border-gray-400 rounded outline-none focus:border-blue-600 focus:shadow-outline" type="email" name="email" placeholder="user@example.com" aria-label="Email">
+        <input id="email" class="px-3 py-2 placeholder-gray-600 align-middle bg-white border border-gray-400 rounded outline-none focus:border-blue-600 focus:shadow-outline" type="email" name="email" placeholder="user@example.com" aria-label="Email">
         <small class="text-sm text-gray-600">We'll never share your email with anyone else.</small>
       </div>
       <div class="flex flex-col flex-wrap gap-2 mb-5">
         <label for="password">Password</label>
-        <input class="px-3 py-2 placeholder-gray-600 align-middle bg-white border border-gray-400 rounded outline-none focus:border-blue-600 focus:shadow-outline" type="password" name="password" placeholder="Password" aria-label="Password">
+        <input id="password" class="px-3 py-2 placeholder-gray-600 align-middle bg-white border border-gray-400 rounded outline-none focus:border-blue-600 focus:shadow-outline" type="password" name="password" placeholder="Password" aria-label="Password">
       </div>
       <div class="flex flex-row flex-wrap items-center gap-2 mb-5">
         <input type="checkbox" id="exampleCheck1">
@@ -33,8 +33,8 @@
   <template>
     <form class="px-6 py-3 bg-white">
       <div class="flex flex-col flex-wrap gap-2 mb-5">
-        <label for="email">Single Select</label>
-        <select class="px-3 py-2 placeholder-gray-600 align-middle bg-white border border-gray-400 rounded outline-none focus:border-blue-600 focus:shadow-outline">
+        <label for="singleSelect">Single Select</label>
+        <select id="singleSelect" class="px-3 py-2 placeholder-gray-600 align-middle bg-white border border-gray-400 rounded outline-none focus:border-blue-600 focus:shadow-outline">
           <option>1</option>
           <option>2</option>
           <option>3</option>
@@ -43,8 +43,8 @@
         </select>
       </div>
       <div class="flex flex-col flex-wrap gap-2 mb-5">
-        <label for="email">Single Select</label>
-        <select multiple class="px-3 py-2 placeholder-gray-600 align-middle bg-white border border-gray-400 rounded outline-none focus:border-blue-600 focus:shadow-outline">
+        <label for="multipleSelect">Single Select</label>
+        <select id="multipleSelect" multiple class="px-3 py-2 placeholder-gray-600 align-middle bg-white border border-gray-400 rounded outline-none focus:border-blue-600 focus:shadow-outline">
           <option>1</option>
           <option>2</option>
           <option>3</option>
@@ -63,7 +63,7 @@
     <form class="px-6 py-3 bg-white">
       <div class="flex flex-col flex-wrap gap-2 mb-5">
         <label for="textarea">Textarea</label>
-        <textarea class="px-3 py-2 placeholder-gray-600 align-middle bg-white border border-gray-400 rounded outline-none focus:border-blue-600 focus:shadow-outline" type="textarea" name="textarea" placeholder="This is some example text" aria-label="textarea" rows="3"></textarea>
+        <textarea id="textarea" class="px-3 py-2 placeholder-gray-600 align-middle bg-white border border-gray-400 rounded outline-none focus:border-blue-600 focus:shadow-outline" type="textarea" name="textarea" placeholder="This is some example text" aria-label="textarea" rows="3"></textarea>
       </div>
     </form>
   </template>
