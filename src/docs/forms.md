@@ -26,3 +26,32 @@
     </form>
   </template>
 </code-preview>
+
+## Select Example
+
+<code-preview>
+  <template>
+    <form class="px-6 py-3 bg-white">
+      <div class="flex flex-col flex-wrap gap-2 mb-5">
+        <label for="email">Single Select</label>
+        <select class="px-3 py-2 placeholder-gray-600 align-middle bg-white border border-gray-400 rounded outline-none focus:border-blue-600 focus:shadow-outline">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+      <div class="flex flex-col flex-wrap gap-2 mb-5">
+        <label for="email">Single Select</label>
+        <select multiple class="px-3 py-2 placeholder-gray-600 align-middle bg-white border border-gray-400 rounded outline-none focus:border-blue-600 focus:shadow-outline">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+    </form>
+  </template>
+</code-preview>
