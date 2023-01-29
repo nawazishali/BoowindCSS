@@ -68,3 +68,16 @@
     </form>
   </template>
 </code-preview>
+
+## File Input
+
+<code-preview>
+  <template>
+    <form class="px-6 py-3 bg-white">
+      <div class="flex flex-col flex-wrap gap-2 mb-5">
+        <label for="file">File input</label>
+        <input id="file" class="px-3 py-2 placeholder-gray-600 align-middle bg-white border border-gray-400 rounded outline-none focus:border-blue-600 focus:shadow-outline" type="file" name="file" aria-label="file">
+      </div>
+    </form>
+  </template>
+</code-preview>
