@@ -55,3 +55,16 @@
     </form>
   </template>
 </code-preview>
+
+## Textarea Example
+
+<code-preview>
+  <template>
+    <form class="px-6 py-3 bg-white">
+      <div class="flex flex-col flex-wrap gap-2 mb-5">
+        <label for="textarea">Textarea</label>
+        <textarea class="px-3 py-2 placeholder-gray-600 align-middle bg-white border border-gray-400 rounded outline-none focus:border-blue-600 focus:shadow-outline" type="textarea" name="textarea" placeholder="This is some example text" aria-label="textarea" rows="3"></textarea>
+      </div>
+    </form>
+  </template>
+</code-preview>
