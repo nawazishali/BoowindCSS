@@ -68,3 +68,37 @@
     </form>
   </template>
 </code-preview>
+
+## File Input
+
+<code-preview>
+  <template>
+    <form class="px-6 py-3 bg-white">
+      <div class="flex flex-col flex-wrap gap-2 mb-5">
+        <label for="file">File input</label>
+        <input id="file" class="px-3 py-2 placeholder-gray-600 align-middle bg-white border border-gray-400 rounded outline-none focus:border-blue-600 focus:shadow-outline" type="file" name="file" aria-label="file">
+      </div>
+    </form>
+  </template>
+</code-preview>
+
+## Sizing
+
+<code-preview>
+  <template>
+    <form class="px-6 py-3 bg-white">
+      <div class="flex flex-col flex-wrap gap-2 mb-5">
+        <label for="emailLarge">Large Input</label>
+        <input id="emailLarge" class="px-4 py-2 text-xl leading-8 placeholder-gray-600 align-middle bg-white border border-gray-400 rounded outline-none focus:border-blue-600 focus:shadow-outline" type="emailLarge" name="emailLarge" placeholder="user@example.com" aria-label="EmailLarge">
+      </div>
+      <div class="flex flex-col flex-wrap gap-2 mb-5">
+        <label for="emailNormal">Normal Input</label>
+        <input id="emailNormal" class="px-3 py-2 placeholder-gray-600 align-middle bg-white border border-gray-400 rounded outline-none focus:border-blue-600 focus:shadow-outline" type="emailNormal" name="emailNormal" placeholder="user@example.com" aria-label="EmailNormal">
+      </div>
+      <div class="flex flex-col flex-wrap gap-2 mb-5">
+        <label for="emailsmall">Small Input</label>
+        <input id="emailsmall" class="px-2 py-1 text-sm placeholder-gray-600 align-middle bg-white border border-gray-400 rounded outline-none focus:border-blue-600 focus:shadow-outline leadeing-6" type="emailsmall" name="emailsmall" placeholder="user@example.com" aria-label="Emailsmall">
+      </div>
+    </form>
+  </template>
+</code-preview>
