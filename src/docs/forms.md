@@ -102,3 +102,17 @@
     </form>
   </template>
 </code-preview>
+
+
+## Range input
+
+<code-preview>
+  <template>
+    <form class="px-6 py-3 bg-white">
+      <div class="flex flex-col flex-wrap gap-2 mb-5">
+        <label for="range">Range</label>
+        <input id="range" class="py-2" type="range" name="range" aria-label="range">
+      </div>
+    </form>
+  </template>
+</code-preview>
