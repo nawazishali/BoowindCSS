@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-6">
+  <div class="mt-6 code-preview">
     <nav class="box-border flex flex-wrap text-center list-none">
       <button
         type="button"
@@ -89,30 +89,30 @@ export default {
 }
 </script>
 
-<style scoped>
-pre {
+<style>
+.code-preview pre {
   line-height: 0 !important;
   margin: 0 !important;
   border-radius: 0 !important;
 }
-code {
+.code-preview code {
   font-size: 13px !important;
 }
 
-code::-webkit-scrollbar {
+.code-preview code::-webkit-scrollbar {
   width: 12px;
   height: 6px;
   background-color: #212529;
 }
 
-code::-webkit-scrollbar-thumb {
+.code-preview code::-webkit-scrollbar-thumb {
   border-radius: 10px;
   box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
   -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
   background-color: #4a5568;
 }
 
-code::-webkit-scrollbar-track {
+.code-preview code::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
   -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
   border-radius: 10px;
