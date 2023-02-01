@@ -19,8 +19,10 @@ export default class CopyButtonPlugin {
       className: "hljs-copy-button",
     });
     button.dataset.copied = false;
-    el.parentElement.classList.add("hljs-copy-wrapper");
-    el.parentElement.appendChild(button);
+    if(el.parentElement.getElementsByClassName('hljs-copy-button').length < 1) {
+      el.parentElement.classList.add("hljs-copy-wrapper");
+      el.parentElement.appendChild(button);
+    }
 
     // Add a custom proprety to the code block so that the copy button can reference and match its background-color value.
     el.parentElement.style.setProperty(
@@ -47,7 +49,7 @@ export default class CopyButtonPlugin {
           el.parentElement.appendChild(alert);
 
           setTimeout(() => {
-            button.innerHTML = locales[lang]?.[0] || "Copy";
+            button.innerHTML = "Copy";
             button.dataset.copied = false;
             el.parentElement.removeChild(alert);
             alert = null;

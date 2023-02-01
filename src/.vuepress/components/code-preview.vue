@@ -82,13 +82,14 @@ export default {
     },
   },
   updated() {
-    this.$hljs.highlightElement(this.$refs.htmlTemplate)
-    this.$hljs.highlightElement(this.$refs.jsxTemplate)
+    this.$hljs.highlightAll()
+    // this.$hljs.highlightElement(this.$refs.htmlTemplate)
+    // this.$hljs.highlightElement(this.$refs.jsxTemplate)
   },
 }
 </script>
 
-<style>
+<style scoped>
 pre {
   line-height: 0 !important;
   margin: 0 !important;
