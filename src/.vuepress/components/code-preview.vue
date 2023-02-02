@@ -91,12 +91,11 @@ export default {
 
 <style>
 .code-preview pre {
-  line-height: 0 !important;
-  margin: 0 !important;
-  border-radius: 0 !important;
+  line-height: 0;
+  margin: 0;
 }
 .code-preview code {
-  font-size: 13px !important;
+  font-size: 13px;
 }
 
 .code-preview code::-webkit-scrollbar {
