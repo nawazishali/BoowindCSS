@@ -157,3 +157,40 @@
     </form>
   </template>
 </code-preview>
+
+## Inline radio & checkbox
+
+<code-preview>
+  <template>
+    <form class="px-6 py-3 bg-white">
+      <div class="flex gap-4">
+        <div class="flex flex-row flex-wrap items-center gap-2 mb-5">
+          <input type="checkbox" id="inlineCheckbox1" />
+          <label for="inlineCheckbox1">Yes</label>
+        </div>
+        <div class="flex flex-row flex-wrap items-center gap-2 mb-5">
+          <input type="checkbox" id="inlineCheckbox2" />
+          <label for="inlineCheckbox2">No</label>
+        </div>
+        <div class="flex flex-row flex-wrap items-center gap-2 mb-5 text-gray-700">
+          <input type="checkbox" id="inlineCheckbox3" disabled="disabled" />
+          <label for="inlineCheckbox3">May be</label>
+        </div>
+      </div>
+      <div class="flex gap-4">
+        <div class="flex flex-row flex-wrap items-center gap-2 mb-5">
+          <input type="radio" id="inlineRadio1" name="exampleRadios">
+          <label for="inlineRadio1">Yes</label>
+        </div>
+        <div class="flex flex-row flex-wrap items-center gap-2 mb-5">
+          <input type="radio" id="inlineRadio2" name="exampleRadios">
+          <label for="inlineRadio2">No</label>
+        </div>
+        <div class="flex flex-row flex-wrap items-center gap-2 mb-5 text-gray-700">
+          <input type="radio" id="inlineRadio3" name="exampleRadios" disabled>
+          <label for="inlineRadio3">May be</label>
+        </div>
+      </div>
+    </form>
+  </template>
+</code-preview>
