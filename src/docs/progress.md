@@ -69,3 +69,16 @@
     </div>
   </template>
 </code-preview>
+
+## Multicolor progress
+
+<code-preview>
+  <template>
+    <div class="flex w-full h-4 my-3 overflow-hidden text-xs text-center text-white bg-gray-200 rounded">
+      <div class="bg-green-500" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+      <div class="bg-blue-600" role="progressbar" style="width: 25%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+      <div class="bg-yellow-500" role="progressbar" style="width: 25%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+      <div class="bg-red-600" role="progressbar" style="width: 25%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+  </template>
+</code-preview>
