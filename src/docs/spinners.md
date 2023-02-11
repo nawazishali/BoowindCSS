@@ -16,6 +16,9 @@
     <div class="inline-block w-8 h-8 border-4 border-gray-800 rounded-full border-t-transparent border-b-transparent animate-spin" role="status">
       <span class="sr-only">Loading...</span>
     </div>
+    <div role="status" class="inline-block w-8 h-8 border-4 border-gray-800 border-dotted rounded-full border-t-transparent animate-spin">
+      <span class="sr-only">Loading...</span>
+    </div>
   </template>
 </code-preview>
 
