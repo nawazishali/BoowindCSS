@@ -79,6 +79,7 @@ module.exports = {
             'navbar',
             'pagination',
             'progress',
+            'spinners',
           ]
         }
       ],

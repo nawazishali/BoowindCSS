@@ -1,3 +1,5 @@
+const plugin = require('tailwindcss/plugin')
+
 module.exports = {
   future: {
     // removeDeprecatedGapUtilities: true,
@@ -23,6 +25,24 @@ module.exports = {
     opacity: ["active", "focus", "hover", "disabled"],
     cursor: ['disabled']
   },
-  plugins: [],
+  plugins: [
+    plugin(function({ addUtilities, theme }) {
+      const newUtilities = {
+        '.border-r-transparent': {
+          borderRightColor: theme('colors.transparent'),
+        },
+        '.border-b-transparent': {
+          borderBottomColor: theme('colors.transparent'),
+        },
+        '.border-l-transparent': {
+          borderLeftColor: theme('colors.transparent'),
+        },
+        '.border-t-transparent': {
+          borderTopColor: theme('colors.transparent'),
+        },
+      }
+      addUtilities(newUtilities)
+    })
+  ],
   important: true, // https://sebastiandedeyne.com/why-we-use-important-with-tailwind/
 };
