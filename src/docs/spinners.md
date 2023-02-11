@@ -109,3 +109,19 @@
     </div>
   </template>
 </code-preview>
+
+## Buttons with spinners
+
+<code-preview>
+  <template>
+    <button
+      type="button"
+      disabled
+      class="inline-block px-3 py-2 m-1 text-base font-normal leading-6 text-center text-white align-middle bg-blue-600 border-transparent border-solid rounded cursor-pointer hover:bg-blue-700 active:bg-blue-700 focus:outline-none disabled:opacity-75 disabled:cursor-not-allowed">
+      <div role="status" class="inline-block w-4 h-4 align-text-top border-2 border-gray-200 rounded-full border-t-transparent animate-spin">
+        <span class="sr-only">Loading...</span>
+      </div>
+      Loading...
+    </button>
+  </template>
+</code-preview>
