@@ -90,3 +90,19 @@
     </div>
   </template>
 </code-preview>
+
+## Spinner Sizes
+
+<code-preview>
+  <template>
+    <div class="inline-block w-12 h-12 border-4 border-gray-800 rounded-full border-t-transparent animate-spin" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="inline-block w-8 h-8 border-4 border-gray-800 rounded-full border-t-transparent animate-spin" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="inline-block w-4 h-4 border-2 border-gray-800 rounded-full border-t-transparent animate-spin" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </template>
+</code-preview>
