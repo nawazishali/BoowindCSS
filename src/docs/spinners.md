@@ -1,10 +1,19 @@
 # Spinners
 
-## Rotating Spinner
+## Rotating Spinners
 
 <code-preview>
   <template>
     <div class="inline-block w-8 h-8 border-4 border-gray-800 rounded-full border-t-transparent animate-spin" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="inline-block w-8 h-8 border-4 border-gray-800 rounded-full border-t-transparent border-r-transparent animate-spin" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="inline-block w-8 h-8 border-4 border-gray-800 rounded-full border-t-transparent border-r-transparent border-b-transparent animate-spin" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="inline-block w-8 h-8 border-4 border-gray-800 rounded-full border-t-transparent border-b-transparent animate-spin" role="status">
       <span class="sr-only">Loading...</span>
     </div>
   </template>
