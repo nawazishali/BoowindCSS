@@ -10,11 +10,18 @@ Make sure you have [TailwindCSS `v1.9.0`](https://v1.tailwindcss.com/docs/instal
 Replace your default `tailwind.config.js` file with the one shown down below or use the relevant parts from variants and theme property according to your existing config.
 
 ``` js
+const plugin = require('tailwindcss/plugin')
+
 module.exports = {
   future: {
+    // removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
   },
-  purge: [],
+  purge: [
+    './src/**/*.md',
+    './src/.vuepress/components/*.vue',
+    './src/.vuepress/components/**/*.vue',
+  ],
   theme: {
     extend: {
       inset: {
@@ -30,7 +37,25 @@ module.exports = {
     opacity: ["active", "focus", "hover", "disabled"],
     cursor: ['disabled']
   },
-  plugins: [],
+  plugins: [
+    plugin(function({ addUtilities, theme }) {
+      const newUtilities = {
+        '.border-r-transparent': {
+          borderRightColor: theme('colors.transparent'),
+        },
+        '.border-b-transparent': {
+          borderBottomColor: theme('colors.transparent'),
+        },
+        '.border-l-transparent': {
+          borderLeftColor: theme('colors.transparent'),
+        },
+        '.border-t-transparent': {
+          borderTopColor: theme('colors.transparent'),
+        },
+      }
+      addUtilities(newUtilities)
+    })
+  ],
   important: true, // https://sebastiandedeyne.com/why-we-use-important-with-tailwind/
 };
 ```
