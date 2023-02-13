@@ -80,6 +80,7 @@ module.exports = {
             'pagination',
             'progress',
             'spinners',
+            'media-object'
           ]
         }
       ],
