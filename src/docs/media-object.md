@@ -114,3 +114,56 @@
     </div>
   </template>
 </code-preview>
+
+## List-based media object
+
+<code-preview>
+  <template>
+    <ul>
+      <li>
+        <div class="flex flex-row items-start gap-4 p-5 bg-white">
+          <img src="https://api.dicebear.com/5.x/fun-emoji/svg" alt="avatar" class="w-16" />
+          <div class="text-gray-900">
+            <h5 class="mb-2 text-lg font-medium">Media heading</h5>
+            <p class="m-0 text-base font">
+              Will you do the same for me? It's time to face the music I'm no longer your muse.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="flex flex-row items-start gap-4 p-5 bg-white">
+          <img src="https://api.dicebear.com/5.x/fun-emoji/svg" alt="avatar" class="w-16" />
+          <div class="text-gray-900">
+            <h5 class="mb-2 text-lg font-medium">Media heading</h5>
+            <p class="m-0 text-base font">
+              Will you do the same for me? It's time to face the music I'm no longer your muse.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="flex flex-row items-start gap-4 p-5 bg-white">
+          <img src="https://api.dicebear.com/5.x/fun-emoji/svg" alt="avatar" class="w-16" />
+          <div class="text-gray-900">
+            <h5 class="mb-2 text-lg font-medium">Media heading</h5>
+            <p class="m-0 text-base font">
+              Will you do the same for me? It's time to face the music I'm no longer your muse.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="flex flex-row items-start gap-4 p-5 bg-white">
+          <img src="https://api.dicebear.com/5.x/fun-emoji/svg" alt="avatar" class="w-16" />
+          <div class="text-gray-900">
+            <h5 class="mb-2 text-lg font-medium">Media heading</h5>
+            <p class="m-0 text-base font">
+              Will you do the same for me? It's time to face the music I'm no longer your muse.
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </template>
+</code-preview>
