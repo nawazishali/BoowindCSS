@@ -1,5 +1,7 @@
 # Alerts
 
+<p class="m-0 text-2xl font-light">Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.</p>
+
 ## Plain Alerts
 
 <code-preview>
