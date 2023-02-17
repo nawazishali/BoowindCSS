@@ -1,5 +1,7 @@
 # Badge
 
+<p class="m-0 text-2xl font-light">Documentation and examples for badges, our small count and labeling component.</p>
+
 ## Base badges 
 
 <code-preview>
