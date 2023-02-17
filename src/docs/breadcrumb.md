@@ -1,5 +1,7 @@
 # Breadcrumb
 
+<p class="m-0 text-2xl font-light">Indicate the current page’s location within a navigational hierarchy.</p>
+
 <code-preview>
   <nav aria-label="breadcrumb">
     <ol class="px-5 py-3 my-2 text-blue-600 bg-gray-200">
