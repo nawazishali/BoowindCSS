@@ -1,5 +1,7 @@
 # Buttons
 
+<p class="m-0 text-2xl font-light">Custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more</p>
+
 ## Example Buttons
 
 <code-preview>
