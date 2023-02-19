@@ -1,5 +1,7 @@
 # Button Group
 
+<p class="m-0 text-2xl font-light">Group a series of buttons together on a single line with the button group.</p>
+
 ## Basic example
 
 <code-preview>
