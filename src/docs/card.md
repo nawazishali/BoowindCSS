@@ -1,5 +1,7 @@
 # Card
 
+<p class="m-0 text-2xl font-light">Cards provide a flexible and extensible content container with multiple variants and options.</p>
+
 ## Basic example
 
 <code-preview>

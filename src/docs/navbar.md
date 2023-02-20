@@ -1,5 +1,7 @@
 # Navbar
 
+<p class="m-0 text-2xl font-light"></p>
+
 ## Base navbar
 
 <code-preview>
