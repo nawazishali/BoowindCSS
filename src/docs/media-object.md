@@ -1,5 +1,7 @@
 # Media object
 
+<p class="m-0 text-2xl font-light"></p>
+
 ## Basic media object
 
 <code-preview>
