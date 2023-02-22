@@ -1,6 +1,6 @@
 # Forms
 
-<p class="m-0 text-2xl font-light"></p>
+<p class="m-0 text-2xl font-light">Examples and usage guidelines for form control styles, layout options, and custom components for creating a wide variety of forms.</p>
 
 ## Basic Overview
 
