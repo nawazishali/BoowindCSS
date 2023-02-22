@@ -1,6 +1,6 @@
 # List Group
 
-<p class="m-0 text-2xl font-light"></p>
+<p class="m-0 text-2xl font-light">List groups are a flexible and powerful component for displaying a series of content. Modify and extend them to support just about any content within.</p>
 
 ## Basic example
 
